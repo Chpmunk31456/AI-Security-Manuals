@@ -1,4 +1,4 @@
-A[ free, beginner-friendly practical manual for understanding when, why, and how to use essential cybersecurity tools.
+A free, beginner-friendly practical manual for understanding when, why, and how to use essential cybersecurity tools.
 
 ## Author
 
