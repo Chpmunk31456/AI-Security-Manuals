@@ -1,36 +1,3 @@
-i need a new readme 
-Worked for 1m 58s
-
-Your new README is complete with verified download links for every manual:
-
-README.md
-
-In GitHub:
-
-Open the downloaded file.
-Copy everything.
-Paste it into the GitHub editor.
-Click Commit changes…
-Use commit message: Update README for complete manual collection
-Click Commit changes again.
-Sorry, here is the correct image
-Worked for 40s
-
-Thank you—the corrected image shows the complete repository. I updated the README to include the newly added Spanish ISO/IEC 42001 Word document.
-
-README.md
-
-It now includes verified links for all 14 files:
-
-Kali Linux manuals in English, Spanish, and Brazilian Portuguese
-AI Risk Management manuals in English and Spanish
-ISO/IEC 42001 manuals in English and Spanish
-Both PDF and Word formats
-
-Recommended commit message:
-
-Update README for complete cybersecurity and AI governance collection
-
 Library
 /
 README.md
