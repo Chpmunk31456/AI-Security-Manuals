@@ -1,341 +1,192 @@
-Library
-/
-README.md
-# Practical Cybersecurity, AI Governance, and Risk Management Manuals
+# AI Security Manuals
 
-A free, beginner-friendly collection of practical learning manuals covering **Kali Linux, ethical security testing, AI security, digital forensics, AI governance, risk management, and ISO/IEC 42001:2023**.
-
-**Author:** Alberto (Al) Leiva  
-**Current release:** Version 1.0  
-**Languages:** English, Spanish, and Brazilian Portuguese
-
----
-
-## About This Collection
-
-This repository was created to make cybersecurity and AI governance education easier to understand and more accessible. The manuals are written for students, junior analysts, managers, career changers, educators, and professionals who want practical guidance without unnecessary complexity.
-
-The collection connects technical learning with governance, risk, compliance, documentation, and professional responsibility. It explains not only how tools and frameworks work, but also when they should be used, why authorization matters, and how to communicate results clearly.
-
----
-
-## Download the Manuals
-
-### Kali Linux, AI Security, and Digital Forensics
-
-Practical guidance on Kali Linux, safe lab setup, ethical security testing, common security tools, AI-assisted testing, MCP and RAG security, network analysis, web application testing, vulnerability assessment, digital forensics, reporting, GRC, and career development.
-
-| Language | PDF | Microsoft Word |
-|---|---|---|
-| English | [Read or download PDF](Kali_Linux_AI_Security_Forensics_English_v1.0.pdf) | [Download Word document](Kali_Linux_AI_Security_Forensics_English_v1.0.docx) |
-| Español | [Leer o descargar PDF](Kali_Linux_AI_Security_Forensics_Espanol_v1.0.pdf) | [Descargar documento Word](Kali_Linux_AI_Security_Forensics_Espanol_v1.0.docx) |
-| Português do Brasil | [Ler ou baixar PDF](Kali_Linux_IA_Seguranca_Testes_Forense_Portugues_BR_v1.0.pdf) | [Baixar documento Word](Kali_Linux_IA_Seguranca_Testes_Forense_Portugues_BR_v1.0.docx) |
-
-### AI Risk Management, Governance, and Security
-
-An introduction to AI governance, security risks, privacy, responsible AI, model and data risk, prompt injection, AI supply-chain risk, monitoring, evidence collection, and audit readiness.
-
-| Language | PDF | Microsoft Word |
-|---|---|---|
-| English | [Read or download PDF](AI_Risk_Management_Governance_and_Security_Practical_Manual_v1.0.pdf) | [Download Word document](AI_Risk_Management_Governance_and_Security_Practical_Manual_v1.0.docx) |
-| Español | [Leer o descargar PDF](Manual%20pr%C3%A1ctico%20de%20gesti%C3%B3n%20de%20riesgos.pdf) | [Descargar documento Word](Manual%20pr%C3%A1ctico%20de%20gesti%C3%B3n%20de%20riesgos.docx) |
-
-### ISO/IEC 42001:2023 Practical AIMS Manual
-
-Practical guidance for managers and junior analysts on establishing, operating, monitoring, and continually improving an Artificial Intelligence Management System (AIMS).
-
-| Language | PDF | Microsoft Word |
-|---|---|---|
-| English | [Read or download PDF](ISO_IEC_42001_2023_Practical_AIMS_Manager_and_Junior_Analyst_Manual_v1.0.pdf) | [Download Word document](ISO_IEC_42001_2023_Practical_AIMS_Manager_and_Junior_Analyst_Manual_v1.0.docx) |
-| Español | [Leer o descargar PDF](ISOIEC%20420012023%20OBJETIVOS%20%20%20GERENTE%20Y%20ANALISTA%20JUNIOR.pdf) | [Descargar documento Word](ISOIEC%20420012023%20OBJETIVOS%20%20%20GERENTE%20Y%20ANALISTA%20JUNIOR.docx) |
-
----
-
-## What You Will Learn
-
-- How to build a safe and authorized cybersecurity practice lab
-- Kali Linux installation, navigation, and essential security tools
-- Ethical hacking and responsible testing principles
-- Network, web application, and vulnerability assessment fundamentals
-- Digital forensics and incident-response basics
-- AI security, prompt testing, MCP, RAG, and AI agent risks
-- AI governance, risk assessment, documentation, and control design
-- The purpose and practical operation of an ISO/IEC 42001 AIMS
-- Evidence collection, reporting, audit readiness, and continual improvement
-- How technical findings connect to governance, risk, and compliance
-
----
-
-## Intended Audience
-
-- Students and first-time learners
-- Junior cybersecurity, SOC, GRC, and compliance analysts
-- Ethical hacking and digital-forensics learners
-- AI security and AI governance professionals
-- Managers responsible for cybersecurity, risk, compliance, or AI oversight
-- Career changers, educators, mentors, and nonprofit training programs
-
-No expert-level knowledge is required. Some technical chapters are easier with basic networking, operating-system, and command-line familiarity.
-
----
-
-## Suggested Learning Path
-
-1. Read the ethics, authorization, and safety guidance.
-2. Set up an isolated virtual lab and create a snapshot.
-3. Learn basic Linux commands, file navigation, and networking.
-4. Work through the Kali Linux tools and approved practice exercises.
-5. Study vulnerability assessment, web testing, and digital forensics.
-6. Explore AI security, prompt testing, MCP, RAG, and AI agents.
-7. Read the AI Risk Management, Governance, and Security manual.
-8. Study the ISO/IEC 42001:2023 AIMS manual.
-9. Practice documenting evidence, risks, controls, and recommendations.
-
----
-
-## Safe, Legal, and Ethical Use
-
-All technical material in this repository is intended only for lawful, ethical, and authorized education.
-
-Use security tools and techniques only:
-
-- On systems you own
-- In an isolated personal lab
-- In an approved training environment
-- On systems for which you have explicit written authorization
-
-Never use these materials to access systems, collect information, bypass controls, disrupt services, or test public targets without permission.
-
-> **Technical ability does not create permission.**
-
-Unauthorized testing may cause harm and can lead to disciplinary action, loss of employment, civil liability, criminal penalties, and lasting damage to a cybersecurity career.
-
----
-
-## Important Notice
-
-These manuals are independent educational resources. They do not replace official standards, product documentation, vendor guidance, legal advice, regulatory interpretation, accredited audits, professional penetration-testing procedures, or qualified forensic services.
-
-ISO/IEC 42001 is the intellectual property of the International Organization for Standardization and the International Electrotechnical Commission. This repository provides practical educational guidance and does not reproduce or replace the official standard.
-
-Technology, laws, standards, and tools change frequently. Verify critical information with current official sources before using it in production or regulated environments.
-
----
-
-## Corrections and Contributions
-
-Constructive feedback is welcome. Please use [GitHub Issues](https://github.com/Chpmunk31456/kali-learning-manual/issues) to report:
-
-- Technical inaccuracies or outdated instructions
-- Typographical, translation, or formatting errors
-- Broken links or accessibility concerns
-- Suggestions for future tools, frameworks, exercises, or language editions
-
-Please include the manual name, language, version, page or section, a description of the issue, and a suggested correction when possible.
-
----
-
-## Releases and Updates
-
-Check the repository’s [Releases](https://github.com/Chpmunk31456/kali-learning-manual/releases) page for published editions. The commit history records corrections and ongoing improvements.
-
-Version numbering follows this general format:
-
-- **Major:** Substantial restructuring or technical revision
-- **Minor:** New chapters, examples, tools, translations, or framework coverage
-- **Patch:** Corrections, formatting improvements, and clarified guidance
-
----
-
-## License
-
-Unless otherwise stated in a specific file, the original educational content in this repository is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) (**CC BY-NC-SA 4.0**).
-
-You may share and adapt the original material for noncommercial purposes when you provide appropriate credit, identify changes, and distribute adaptations under the same license.
-
-Third-party standards, names, trademarks, screenshots, documentation, and product references remain the property of their respective owners.
-
----
+A free, practical collection of AI security, governance, risk, compliance, cloud security, and ethical cybersecurity manuals.
 
 ## Author
 
 **Alberto (Al) Leiva**
 
-Cybersecurity, GRC, AI governance, AI security, enterprise security architecture, digital forensics, risk, compliance, and resilience professional.
+Senior Cybersecurity Executive | vCISO | AI Governance | GRC | Enterprise Security Architecture
 
-This collection was created to help learners build practical skills safely, ethically, and responsibly. Cybersecurity is a field of continuous learning: take your time, build strong fundamentals, document your work, respect authorization boundaries, and keep asking questions.
+## About This Repository
 
----
+This repository provides beginner-friendly and practitioner-focused manuals for cybersecurity professionals, AI security engineers, GRC analysts, managers, auditors, students, and career changers.
 
-If these manuals help you, please consider giving the repository a **star** so more learners can find them.
+The collection expands beyond the original Kali Linux manual and now includes materials covering:
 
-Library
-/
-README.md
-# Practical Cybersecurity, AI Governance, and Risk Management Manuals
+- AI security and responsible AI
+- AI governance, risk, and compliance
+- ISO/IEC 42001 AI management systems
+- NIST AI Risk Management Framework
+- OWASP guidance for large language model applications
+- MITRE ATLAS
+- Retrieval-Augmented Generation security
+- Model Context Protocol security
+- AI agents and autonomous systems
+- Prompt injection, data leakage, and model abuse
+- Cloud AI security for Azure, AWS, and Google Cloud
+- Kali Linux and authorized security testing
+- Digital forensics
+- Security evidence collection and audit readiness
+- Practical guidance for managers, analysts, and engineers
 
-A free, beginner-friendly collection of practical learning manuals covering **Kali Linux, ethical security testing, AI security, digital forensics, AI governance, risk management, and ISO/IEC 42001:2023**.
+## Current Manual Categories
 
-**Author:** Alberto (Al) Leiva  
-**Current release:** Version 1.0  
-**Languages:** English, Spanish, and Brazilian Portuguese
+### AI Governance and Risk
 
----
+Practical guidance for identifying, evaluating, treating, documenting, and monitoring risks associated with artificial intelligence systems.
 
-## About This Collection
+### ISO/IEC 42001
 
-This repository was created to make cybersecurity and AI governance education easier to understand and more accessible. The manuals are written for students, junior analysts, managers, career changers, educators, and professionals who want practical guidance without unnecessary complexity.
+Implementation guidance for establishing and operating an Artificial Intelligence Management System, including responsibilities for managers and junior analysts.
 
-The collection connects technical learning with governance, risk, compliance, documentation, and professional responsibility. It explains not only how tools and frameworks work, but also when they should be used, why authorization matters, and how to communicate results clearly.
+### Cloud AI Security
 
----
+Security guidance for protecting AI services, data, identities, models, applications, and supporting infrastructure across major cloud platforms.
 
-## Download the Manuals
+### Kali Linux, AI Security, and Forensics
 
-### Kali Linux, AI Security, and Digital Forensics
+A practical introduction to Kali Linux, ethical security testing, AI security tools, GRC, Hack The Box practice, and digital forensics.
 
-Practical guidance on Kali Linux, safe lab setup, ethical security testing, common security tools, AI-assisted testing, MCP and RAG security, network analysis, web application testing, vulnerability assessment, digital forensics, reporting, GRC, and career development.
+## Available Languages
 
-| Language | PDF | Microsoft Word |
-|---|---|---|
-| English | [Read or download PDF](Kali_Linux_AI_Security_Forensics_English_v1.0.pdf) | [Download Word document](Kali_Linux_AI_Security_Forensics_English_v1.0.docx) |
-| Español | [Leer o descargar PDF](Kali_Linux_AI_Security_Forensics_Espanol_v1.0.pdf) | [Descargar documento Word](Kali_Linux_AI_Security_Forensics_Espanol_v1.0.docx) |
-| Português do Brasil | [Ler ou baixar PDF](Kali_Linux_IA_Seguranca_Testes_Forense_Portugues_BR_v1.0.pdf) | [Baixar documento Word](Kali_Linux_IA_Seguranca_Testes_Forense_Portugues_BR_v1.0.docx) |
+Manuals may be available in:
 
-### AI Risk Management, Governance, and Security
+- English
+- Spanish
+- Brazilian Portuguese
 
-An introduction to AI governance, security risks, privacy, responsible AI, model and data risk, prompt injection, AI supply-chain risk, monitoring, evidence collection, and audit readiness.
+Each edition is intended to use natural, professionally reviewed language rather than a literal translation.
 
-| Language | PDF | Microsoft Word |
-|---|---|---|
-| English | [Read or download PDF](AI_Risk_Management_Governance_and_Security_Practical_Manual_v1.0.pdf) | [Download Word document](AI_Risk_Management_Governance_and_Security_Practical_Manual_v1.0.docx) |
-| Español | [Leer o descargar PDF](Manual%20pr%C3%A1ctico%20de%20gesti%C3%B3n%20de%20riesgos.pdf) | [Descargar documento Word](Manual%20pr%C3%A1ctico%20de%20gesti%C3%B3n%20de%20riesgos.docx) |
+## File Formats
 
-### ISO/IEC 42001:2023 Practical AIMS Manual
+Where available, manuals are published as:
 
-Practical guidance for managers and junior analysts on establishing, operating, monitoring, and continually improving an Artificial Intelligence Management System (AIMS).
+- **PDF** for reading and distribution
+- **DOCX** for accessibility, editing, and training use
 
-| Language | PDF | Microsoft Word |
-|---|---|---|
-| English | [Read or download PDF](ISO_IEC_42001_2023_Practical_AIMS_Manager_and_Junior_Analyst_Manual_v1.0.pdf) | [Download Word document](ISO_IEC_42001_2023_Practical_AIMS_Manager_and_Junior_Analyst_Manual_v1.0.docx) |
-| Español | [Leer o descargar PDF](ISOIEC%20420012023%20OBJETIVOS%20%20%20GERENTE%20Y%20ANALISTA%20JUNIOR.pdf) | [Descargar documento Word](ISOIEC%20420012023%20OBJETIVOS%20%20%20GERENTE%20Y%20ANALISTA%20JUNIOR.docx) |
+## Suggested Repository Organization
 
----
+```text
+AI-Security-Manuals/
+├── AI-Governance-and-Risk/
+├── Cloud-AI-Security/
+│   ├── AWS/
+│   ├── Azure/
+│   └── Google-Cloud/
+├── ISO-IEC-42001/
+├── Kali-Linux-AI-Security-and-Forensics/
+├── Graphics/
+├── Templates/
+├── Resources/
+├── LICENSE
+└── README.md
+```
 
-## What You Will Learn
+The current files may be reorganized gradually as the collection grows.
 
-- How to build a safe and authorized cybersecurity practice lab
-- Kali Linux installation, navigation, and essential security tools
-- Ethical hacking and responsible testing principles
-- Network, web application, and vulnerability assessment fundamentals
-- Digital forensics and incident-response basics
-- AI security, prompt testing, MCP, RAG, and AI agent risks
-- AI governance, risk assessment, documentation, and control design
-- The purpose and practical operation of an ISO/IEC 42001 AIMS
-- Evidence collection, reporting, audit readiness, and continual improvement
-- How technical findings connect to governance, risk, and compliance
+## Safe and Ethical Use
 
----
+All technical material in this repository is intended for lawful, authorized, and ethical use.
 
-## Intended Audience
+Use security tools and testing procedures only when you:
 
-- Students and first-time learners
-- Junior cybersecurity, SOC, GRC, and compliance analysts
-- Ethical hacking and digital-forensics learners
-- AI security and AI governance professionals
-- Managers responsible for cybersecurity, risk, compliance, or AI oversight
-- Career changers, educators, mentors, and nonprofit training programs
+- Own the system or environment
+- Have explicit written permission
+- Are working in an approved laboratory
+- Are participating in an authorized training platform
+- Are operating within an approved professional engagement
 
-No expert-level knowledge is required. Some technical chapters are easier with basic networking, operating-system, and command-line familiarity.
+**Technical ability does not create permission.**
 
----
+Do not use this material to access, test, disrupt, monitor, or collect information from systems, applications, models, accounts, networks, or data without authorization.
 
-## Suggested Learning Path
+## Core AI Security Principles
 
-1. Read the ethics, authorization, and safety guidance.
-2. Set up an isolated virtual lab and create a snapshot.
-3. Learn basic Linux commands, file navigation, and networking.
-4. Work through the Kali Linux tools and approved practice exercises.
-5. Study vulnerability assessment, web testing, and digital forensics.
-6. Explore AI security, prompt testing, MCP, RAG, and AI agents.
-7. Read the AI Risk Management, Governance, and Security manual.
-8. Study the ISO/IEC 42001:2023 AIMS manual.
-9. Practice documenting evidence, risks, controls, and recommendations.
+AI systems should be designed and operated with:
 
----
+- Security
+- Privacy
+- Accountability
+- Transparency
+- Human oversight
+- Fairness
+- Reliability
+- Resilience
+- Traceability
+- Regulatory compliance
 
-## Safe, Legal, and Ethical Use
+Security should be addressed throughout the AI lifecycle, including planning, data collection, development, testing, deployment, monitoring, incident response, retirement, and disposal.
 
-All technical material in this repository is intended only for lawful, ethical, and authorized education.
+## Frameworks and Standards
 
-Use security tools and techniques only:
+The manuals may reference:
 
-- On systems you own
-- In an isolated personal lab
-- In an approved training environment
-- On systems for which you have explicit written authorization
+- NIST AI Risk Management Framework
+- NIST Cybersecurity Framework
+- ISO/IEC 27001
+- ISO/IEC 42001
+- ISO/IEC 23894
+- OWASP Top 10 for LLM Applications
+- OWASP AI Testing guidance
+- MITRE ATLAS
+- CIS Controls
+- Cloud Security Alliance guidance
+- Applicable privacy and data-protection requirements
 
-Never use these materials to access systems, collect information, bypass controls, disrupt services, or test public targets without permission.
+Organizations should verify which legal, regulatory, contractual, and industry requirements apply to their environment.
 
-> **Technical ability does not create permission.**
+## Versioning
 
-Unauthorized testing may cause harm and can lead to disciplinary action, loss of employment, civil liability, criminal penalties, and lasting damage to a cybersecurity career.
+Recommended file naming:
 
----
+```text
+Manual_Title_Language_v1.0.pdf
+Manual_Title_Language_v1.0.docx
+```
 
-## Important Notice
+Example release numbering:
 
-These manuals are independent educational resources. They do not replace official standards, product documentation, vendor guidance, legal advice, regulatory interpretation, accredited audits, professional penetration-testing procedures, or qualified forensic services.
+- **v1.0** — Initial public release
+- **v1.1** — Corrections, formatting improvements, or updated links
+- **v1.2** — Added tools, examples, or implementation guidance
+- **v2.0** — Major restructuring or substantial new content
 
-ISO/IEC 42001 is the intellectual property of the International Organization for Standardization and the International Electrotechnical Commission. This repository provides practical educational guidance and does not reproduce or replace the official standard.
+## Contributions and Corrections
 
-Technology, laws, standards, and tools change frequently. Verify critical information with current official sources before using it in production or regulated environments.
+Corrections, accessibility improvements, and responsible contributions are welcome.
 
----
+Contributions should:
 
-## Corrections and Contributions
+1. Use accurate and authoritative information.
+2. Prefer primary and official sources.
+3. Avoid confidential, proprietary, or personal information.
+4. Exclude harmful or unauthorized attack guidance.
+5. Preserve the practical and beginner-friendly writing style.
+6. Clearly identify the manual, language, and proposed change.
 
-Constructive feedback is welcome. Please use [GitHub Issues](https://github.com/Chpmunk31456/kali-learning-manual/issues) to report:
+Feedback may be submitted through GitHub Issues or pull requests.
 
-- Technical inaccuracies or outdated instructions
-- Typographical, translation, or formatting errors
-- Broken links or accessibility concerns
-- Suggestions for future tools, frameworks, exercises, or language editions
+## Disclaimer
 
-Please include the manual name, language, version, page or section, a description of the issue, and a suggested correction when possible.
+These materials are provided for educational and informational purposes only.
 
----
+They do not constitute legal, regulatory, compliance, financial, or professional advice. Readers and organizations are responsible for obtaining authorization, validating technical guidance, protecting information, assessing risk, and consulting qualified professionals when appropriate.
 
-## Releases and Updates
-
-Check the repository’s [Releases](https://github.com/Chpmunk31456/kali-learning-manual/releases) page for published editions. The commit history records corrections and ongoing improvements.
-
-Version numbering follows this general format:
-
-- **Major:** Substantial restructuring or technical revision
-- **Minor:** New chapters, examples, tools, translations, or framework coverage
-- **Patch:** Corrections, formatting improvements, and clarified guidance
-
----
+The author and contributors are not responsible for misuse, unauthorized activity, service interruption, data loss, security incidents, or other damages resulting from the use of these materials.
 
 ## License
 
-Unless otherwise stated in a specific file, the original educational content in this repository is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/) (**CC BY-NC-SA 4.0**).
+Unless otherwise stated, the original educational content in this repository is licensed under the:
 
-You may share and adapt the original material for noncommercial purposes when you provide appropriate credit, identify changes, and distribute adaptations under the same license.
+**Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License — CC BY-NC-SA 4.0**
 
-Third-party standards, names, trademarks, screenshots, documentation, and product references remain the property of their respective owners.
+You may share and adapt the material for noncommercial purposes when appropriate credit is provided and derivative work is distributed under the same license.
 
----
+Third-party trademarks, standards, screenshots, product names, and tools remain the property of their respective owners.
 
-## Author
+## Project Mission
 
-**Alberto (Al) Leiva**
+The mission of this repository is to make AI security education practical, understandable, responsible, and accessible worldwide.
 
-Cybersecurity, GRC, AI governance, AI security, enterprise security architecture, digital forensics, risk, compliance, and resilience professional.
-
-This collection was created to help learners build practical skills safely, ethically, and responsibly. Cybersecurity is a field of continuous learning: take your time, build strong fundamentals, document your work, respect authorization boundaries, and keep asking questions.
-
----
-
-If these manuals help you, please consider giving the repository a **star** so more learners can find them.
+The collection is intended to help people build real cybersecurity and AI governance skills while promoting ethical conduct, continuous learning, and responsible innovation.
