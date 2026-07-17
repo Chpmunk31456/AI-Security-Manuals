@@ -34,7 +34,7 @@ The collection includes practical guidance covering:
 * Model Context Protocol security
 * AI agents and autonomous systems
 * Prompt injection, data leakage, and model abuse
-* Cloud AI security for Microsoft Azure, Amazon Web Services, and Google Cloud
+* Cloud AI security for Microsoft Azure, Amazon Web Services, Google Cloud, Oracle Cloud, and IBM Cloud
 * Kali Linux and authorized security testing
 * Digital forensics
 * Security evidence collection and audit readiness
@@ -63,8 +63,8 @@ Practical implementation guidance for establishing, operating, monitoring, and c
 
 * [Read or download the English PDF](ISO_IEC_42001_2023_Practical_AIMS_Manager_and_Junior_Analyst_Manual_v1.0.pdf)
 * [Download the English Word document](ISO_IEC_42001_2023_Practical_AIMS_Manager_and_Junior_Analyst_Manual_v1.0.docx)
-* [Leer o descargar el PDF en español](ISOIEC%20420012023%20OBJETIVOS%20GERENTE%20Y%20ANALISTA%20JUNIOR.pdf)
-* [Descargar el documento Word en español](ISOIEC%20420012023%20OBJETIVOS%20GERENTE%20Y%20ANALISTA%20JUNIOR.docx)
+* [Leer o descargar el PDF en español](ISOIEC%20420012023%20OBJETIVOS%20%20%20GERENTE%20Y%20ANALISTA%20JUNIOR.pdf)
+* [Descargar el documento Word en español](ISOIEC%20420012023%20OBJETIVOS%20%20%20GERENTE%20Y%20ANALISTA%20JUNIOR.docx)
 
 ---
 
@@ -134,6 +134,38 @@ Practical guidance for protecting AI workloads, identities, models, applications
 
 * [Leer o descargar el PDF en español](Proteccion_de_la_IA_Empresarial_en_Google_Cloud_Espanol_v1.0.pdf)
 * [Descargar el documento Word en español](Proteccion_de_la_IA_Empresarial_en_Google_Cloud_Espanol_v1.0.docx)
+
+---
+
+## Securing Enterprise AI on Oracle Cloud
+
+Practical guidance for protecting enterprise AI workloads, identities, models, applications, data, governance processes, monitoring, and supporting infrastructure in Oracle Cloud Infrastructure.
+
+### English
+
+* [Read or download the English PDF](Oracle_Cloud_AI_Security_Manual_English_v1.0.pdf)
+* [Download the English Word document](Oracle_Cloud_AI_Security_Manual_English_v1.0.docx)
+
+### Español
+
+* [Leer o descargar el PDF en español](Oracle_Cloud_AI_Security_Manual_Spanish_v1.0.pdf)
+* [Descargar el documento Word en español](Oracle_Cloud_AI_Security_Manual_Spanish_v1.0.docx)
+
+---
+
+## Securing Enterprise AI on IBM Cloud
+
+Practical guidance for protecting enterprise AI workloads, identities, models, applications, data, governance processes, monitoring, and supporting infrastructure in IBM Cloud.
+
+### English
+
+* [Read or download the English PDF](IBM_Cloud_AI_Security_Manual_English_v1.0.pdf)
+* [Download the English Word document](IBM_Cloud_AI_Security_Manual_English_v1.0.docx)
+
+### Español
+
+* [Leer o descargar el PDF en español](IBM_Cloud_AI_Security_Manual_Spanish_v1.0.pdf)
+* [Descargar el documento Word en español](IBM_Cloud_AI_Security_Manual_Spanish_v1.0.docx)
 
 ---
 
