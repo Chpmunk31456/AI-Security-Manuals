@@ -1,0 +1,65 @@
+name: Temporary README and manual audit
+on:
+  pull_request:
+    branches: [main]
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Audit repository
+        shell: python
+        run: |
+          import re, pathlib, urllib.parse, collections
+          root=pathlib.Path('.')
+          readmes=sorted(p for p in root.rglob('README*.md') if '.git' not in p.parts)
+          link_re=re.compile(r'!?\[[^\]]*\]\(([^)]+)\)')
+          malformed_re=re.compile(r'\]\s+\(')
+          broken=[]; local_count=external=anchors=emails=0; malformed=[]
+          for p in readmes:
+              text=p.read_text(encoding='utf-8',errors='replace')
+              if malformed_re.search(text): malformed.append(str(p))
+              for raw in link_re.findall(text):
+                  target=raw.strip().split()[0].strip('<>')
+                  if target.startswith(('http://','https://')): external+=1; continue
+                  if target.startswith('mailto:'): emails+=1; continue
+                  if target.startswith('#'): anchors+=1; continue
+                  target=urllib.parse.unquote(target.split('#',1)[0])
+                  if not target: continue
+                  local_count+=1
+                  resolved=(p.parent/target).resolve()
+                  try: rel=resolved.relative_to(root.resolve())
+                  except ValueError: broken.append((str(p),raw,'outside repository')); continue
+                  if not resolved.exists(): broken.append((str(p),raw,str(rel)))
+          files=[p for p in root.rglob('*') if p.is_file() and '.git' not in p.parts and str(p)!='.github/workflows/temporary-readme-manual-audit.yml']
+          terms={'English':['english','en-us','en_us'],'Spanish':['spanish','espanol','español','es-419','es_419'],'Portuguese':['portuguese','portugues','português','pt-br','pt_br']}
+          lang={k:[] for k in terms}
+          for p in files:
+              s=str(p).lower()
+              for k,vals in terms.items():
+                  if any(v in s for v in vals): lang[k].append(p)
+          status='PASS' if not broken and not malformed else 'FAIL'
+          out=['# README and Associated-Manual Audit','',f'**Overall result:** {status}','','## Summary','',f'- README files audited: {len(readmes)}',f'- Repository-local links checked: {local_count}',f'- Broken repository-local targets: {len(broken)}',f'- README files with malformed `] (` links: {len(malformed)}',f'- External links identified but not network-tested: {external}',f'- Internal anchors identified: {anchors}',f'- Email links identified: {emails}',f'- Repository files inventoried: {len(files)}','','## Language Inventory','']
+          for k,items in lang.items():
+              c=collections.Counter(p.suffix.lower() for p in items)
+              out.append(f'- {k}-identified files: {len(items)} (Markdown {c[".md"]}, PDF {c[".pdf"]}, DOCX {c[".docx"]})')
+          out+=['','## README Files Audited','']+[f'- `{p}`' for p in readmes]
+          out+=['','## Broken Repository-Local Targets','']
+          if broken: out+=['| README | Link | Resolved target |','|---|---|---|']+[f'| `{a}` | `{b}` | `{c}` |' for a,b,c in broken]
+          else: out+=['No broken repository-local targets were found.']
+          out+=['','## Malformed Markdown Links','']+([f'- `{p}`' for p in malformed] if malformed else ['No malformed `] (` link patterns were found.'])
+          out+=['','## Limits','', '- External websites were not tested.', '- This mechanical audit does not certify technical accuracy, translation quality, or document rendering.', '- Markdown-only manuals are not defects unless a README promises PDF or DOCX editions.','']
+          pathlib.Path('project').mkdir(exist_ok=True)
+          pathlib.Path('project/README_ASSOCIATED_MANUAL_AUDIT.md').write_text('\n'.join(out),encoding='utf-8')
+      - name: Commit report and remove temporary workflow
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          rm -f .github/workflows/temporary-readme-manual-audit.yml
+          git add -A
+          git commit -m "Add README and associated-manual audit report" || exit 0
+          git push origin HEAD:${{ github.head_ref }}
