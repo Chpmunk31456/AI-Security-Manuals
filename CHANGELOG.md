@@ -13,6 +13,9 @@ All notable repository-level changes are documented here.
 
 ### Added
 
+- Seven Brazilian Portuguese DOCX/PDF manual packages covering AI risk, ISO/IEC 42001, Azure, AWS, Google Cloud, Oracle Cloud, and IBM Cloud.
+- Brazilian Portuguese language-folder README files and production QA record.
+
 - Standalone Creative Commons license notice.
 - Contribution and correction guidance.
 - Accessibility statement and review workflow.

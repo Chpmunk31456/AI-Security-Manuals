@@ -22,8 +22,10 @@ Senior Cybersecurity Executive | vCISO | AI Governance | GRC | Enterprise Securi
 |---|---|---|---|
 | AI Risk Management, Governance, and Security | English | [PDF](manuals/ai-risk-management/en/AI_Risk_Management_Governance_and_Security_en_v1.0.pdf) | [DOCX](manuals/ai-risk-management/en/AI_Risk_Management_Governance_and_Security_en_v1.0.docx) |
 | Gestión de riesgos, gobernanza y seguridad de la IA | Español (Latinoamérica) | [PDF](manuals/ai-risk-management/es-419/Gestion_de_Riesgos_Gobernanza_y_Seguridad_de_IA_es-419_v1.0.pdf) | [DOCX](manuals/ai-risk-management/es-419/Gestion_de_Riesgos_Gobernanza_y_Seguridad_de_IA_es-419_v1.0.docx) |
+| Gestão de riscos, governança e segurança da IA | Português (Brasil) | [PDF](manuals/ai-risk-management/pt-BR/Gestao_de_Riscos_Governanca_e_Seguranca_de_IA_pt-BR_v1.0.pdf) | [DOCX](manuals/ai-risk-management/pt-BR/Gestao_de_Riscos_Governanca_e_Seguranca_de_IA_pt-BR_v1.0.docx) |
 | ISO/IEC 42001:2023 Practical AIMS Manual | English | [PDF](manuals/iso-iec-42001/en/ISO_IEC_42001_Practical_AIMS_Manual_en_v1.0.pdf) | [DOCX](manuals/iso-iec-42001/en/ISO_IEC_42001_Practical_AIMS_Manual_en_v1.0.docx) |
 | ISO/IEC 42001:2023 Sistema de gestión de IA | Español (Latinoamérica) | [PDF](manuals/iso-iec-42001/es-419/ISO_IEC_42001_Sistema_de_Gestion_de_IA_es-419_v1.0.pdf) | [DOCX](manuals/iso-iec-42001/es-419/ISO_IEC_42001_Sistema_de_Gestion_de_IA_es-419_v1.0.docx) |
+| ISO/IEC 42001:2023 Sistema de Gestão de IA | Português (Brasil) | [PDF](manuals/iso-iec-42001/pt-BR/ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.pdf) | [DOCX](manuals/iso-iec-42001/pt-BR/ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.docx) |
 
 ### Authorized Testing and Digital Forensics
 
@@ -39,14 +41,19 @@ Senior Cybersecurity Executive | vCISO | AI Governance | GRC | Enterprise Securi
 |---|---|---|---|
 | Microsoft Azure | English | [PDF](manuals/cloud-ai-security/microsoft-azure/en/Securing_Enterprise_AI_on_Microsoft_Azure_en_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/microsoft-azure/en/Securing_Enterprise_AI_on_Microsoft_Azure_en_v1.0.docx) |
 | Microsoft Azure | Español (Latinoamérica) | [PDF](manuals/cloud-ai-security/microsoft-azure/es-419/Proteccion_de_IA_Empresarial_en_Microsoft_Azure_es-419_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/microsoft-azure/es-419/Proteccion_de_IA_Empresarial_en_Microsoft_Azure_es-419_v1.0.docx) |
+| Microsoft Azure | Português (Brasil) | [PDF](manuals/cloud-ai-security/microsoft-azure/pt-BR/Protecao_de_IA_Empresarial_no_Microsoft_Azure_pt-BR_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/microsoft-azure/pt-BR/Protecao_de_IA_Empresarial_no_Microsoft_Azure_pt-BR_v1.0.docx) |
 | Amazon Web Services | English | [PDF](manuals/cloud-ai-security/aws/en/Securing_Enterprise_AI_on_AWS_en_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/aws/en/Securing_Enterprise_AI_on_AWS_en_v1.0.docx) |
 | Amazon Web Services | Español (Latinoamérica) | [PDF](manuals/cloud-ai-security/aws/es-419/Proteccion_de_IA_Empresarial_en_AWS_es-419_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/aws/es-419/Proteccion_de_IA_Empresarial_en_AWS_es-419_v1.0.docx) |
+| Amazon Web Services | Português (Brasil) | [PDF](manuals/cloud-ai-security/aws/pt-BR/Protecao_de_IA_Empresarial_na_AWS_pt-BR_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/aws/pt-BR/Protecao_de_IA_Empresarial_na_AWS_pt-BR_v1.0.docx) |
 | Google Cloud | English | [PDF](manuals/cloud-ai-security/google-cloud/en/Securing_Enterprise_AI_on_Google_Cloud_en_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/google-cloud/en/Securing_Enterprise_AI_on_Google_Cloud_en_v1.0.docx) |
 | Google Cloud | Español (Latinoamérica) | [PDF](manuals/cloud-ai-security/google-cloud/es-419/Proteccion_de_IA_Empresarial_en_Google_Cloud_es-419_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/google-cloud/es-419/Proteccion_de_IA_Empresarial_en_Google_Cloud_es-419_v1.0.docx) |
+| Google Cloud | Português (Brasil) | [PDF](manuals/cloud-ai-security/google-cloud/pt-BR/Protecao_de_IA_Empresarial_no_Google_Cloud_pt-BR_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/google-cloud/pt-BR/Protecao_de_IA_Empresarial_no_Google_Cloud_pt-BR_v1.0.docx) |
 | Oracle Cloud Infrastructure | English | [PDF](manuals/cloud-ai-security/oracle-cloud/en/Oracle_Cloud_AI_Security_Manual_en_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/oracle-cloud/en/Oracle_Cloud_AI_Security_Manual_en_v1.0.docx) |
 | Oracle Cloud Infrastructure | Español (Latinoamérica) | [PDF](manuals/cloud-ai-security/oracle-cloud/es-419/Manual_de_Seguridad_de_IA_en_Oracle_Cloud_es-419_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/oracle-cloud/es-419/Manual_de_Seguridad_de_IA_en_Oracle_Cloud_es-419_v1.0.docx) |
+| Oracle Cloud Infrastructure | Português (Brasil) | [PDF](manuals/cloud-ai-security/oracle-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_Oracle_Cloud_pt-BR_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/oracle-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_Oracle_Cloud_pt-BR_v1.0.docx) |
 | IBM Cloud | English | [PDF](manuals/cloud-ai-security/ibm-cloud/en/IBM_Cloud_AI_Security_Manual_en_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/ibm-cloud/en/IBM_Cloud_AI_Security_Manual_en_v1.0.docx) |
 | IBM Cloud | Español (Latinoamérica) | [PDF](manuals/cloud-ai-security/ibm-cloud/es-419/Manual_de_Seguridad_de_IA_en_IBM_Cloud_es-419_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/ibm-cloud/es-419/Manual_de_Seguridad_de_IA_en_IBM_Cloud_es-419_v1.0.docx) |
+| IBM Cloud | Português (Brasil) | [PDF](manuals/cloud-ai-security/ibm-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_IBM_Cloud_pt-BR_v1.0.pdf) | [DOCX](manuals/cloud-ai-security/ibm-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_IBM_Cloud_pt-BR_v1.0.docx) |
 
 ## Repository Organization
 
