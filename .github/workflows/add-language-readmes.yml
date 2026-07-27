@@ -1,0 +1,39 @@
+name: Add missing language READMEs
+
+on:
+  push:
+    branches:
+      - audit/final-integrity
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  add-readmes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          ref: audit/final-integrity
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Add missing language READMEs
+        run: python scripts/add_missing_language_readmes.py
+
+      - name: Commit generated READMEs
+        run: |
+          if git diff --quiet; then
+            echo "No README changes required"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add manuals/**/README.md
+          git commit -m "Add missing language edition READMEs"
+          git push origin HEAD:audit/final-integrity
