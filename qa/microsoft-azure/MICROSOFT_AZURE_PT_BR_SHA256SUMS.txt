@@ -1,0 +1,2 @@
+8e62f60dcf3110e253137e3426dae1896fd4be9ec68e25e1daeff6670648bcac  manuals/cloud-ai-security/microsoft-azure/pt-BR/Protecao_de_IA_Empresarial_no_Microsoft_Azure_pt-BR_v1.0.docx
+2c99c6ba6d5bd2608404c38b86334aad09658cde2b1c42b290000987e3c1847e  manuals/cloud-ai-security/microsoft-azure/pt-BR/Protecao_de_IA_Empresarial_no_Microsoft_Azure_pt-BR_v1.0.pdf

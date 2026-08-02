@@ -1,0 +1,14 @@
+{
+  "status": "PASS",
+  "english_heading_count": 129,
+  "pt_BR_heading_count": 129,
+  "heading_sequences_identical": true,
+  "docx_package_members": 35,
+  "docx_corrupt_member": null,
+  "pdf_pages": 72,
+  "rendered_pages": 72,
+  "errors": [],
+  "limitations": [
+    "Protected-token and native Brazilian Portuguese review remain pending."
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "input": "C:\\Users\\alber\\Documents\\Codex\\2026-08-02\\referenced-chatgpt-conversation-this-is-an\\work\\pr11-snapshot\\AI-Security-Manuals-refs-pull-11-head\\manuals\\cloud-ai-security\\oracle-cloud\\en\\Oracle_Cloud_AI_Security_Manual_en_v1.0.docx",
+  "fonts_by_char_count": {
+    "Aptos Display": 28
+  },
+  "direct_run_formatting_runs": 85,
+  "direct_paragraph_formatting_paragraphs": 4,
+  "heading_like_paragraphs_not_heading_style": [
+    {
+      "para_index": 1,
+      "text": "Practical AI Security Manual",
+      "style": "Normal"
+    },
+    {
+      "para_index": 2,
+      "text": "Oracle Cloud Infrastructure (OCI) Edition",
+      "style": "Normal"
+    },
+    {
+      "para_index": 4,
+      "text": "Alberto (Al) Leiva",
+      "style": "Normal"
+    },
+    {
+      "para_index": 239,
+      "text": "Layer",
+      "style": "Normal"
+    },
+    {
+      "para_index": 240,
+      "text": "Platform capability",
+      "style": "Normal"
+    },
+    {
+      "para_index": 241,
+      "text": "Security objective",
+      "style": "Normal"
+    },
+    {
+      "para_index": 263,
+      "text": "Term",
+      "style": "Normal"
+    },
+    {
+      "para_index": 264,
+      "text": "Meaning",
+      "style": "Normal"
+    },
+    {
+      "para_index": 285,
+      "text": "Domain",
+      "style": "Normal"
+    },
+    {
+      "para_index": 286,
+      "text": "Minimum expectation",
+      "style": "Normal"
+    },
+    {
+      "para_index": 287,
+      "text": "Example evidence",
+      "style": "Normal"
+    }
+  ],
+  "examples": {
+    "direct_paragraph_formatting": [
+      {
+        "para_index": 1,
+        "text": "Practical AI Security Manual",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "text": "A beginner-friendly guide to cloud foundations, AI workloads, RAG, agents, MCP, governance, testing, monitoring, and inc",
+        "style": "Normal"
+      },
+      {
+        "para_index": 4,
+        "text": "Alberto (Al) Leiva",
+        "style": "Normal"
+      },
+      {
+        "para_index": 6,
+        "text": "Use only in accounts, projects and systems you own or are authorized to administer. Technical capability never creates p",
+        "style": "Callout"
+      }
+    ],
+    "direct_run_formatting": [
+      {
+        "para_index": 1,
+        "run_text": "Practical AI Security Manual",
+        "style": "Normal"
+      },
+      {
+        "para_index": 2,
+        "run_text": "Oracle Cloud Infrastructure (OCI) Edition",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": "A beginner-friendly guide to cloud foundations, AI workloads, RAG, agents, MCP, ",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": ",",
+        "style": "Normal"
+      },
+      {
+        "para_index": 3,
+        "run_text": " and incident response.",
+        "style": "Normal"
+      }
+    ]
+  },
+  "notes": [
+    "Direct formatting is not always wrong, but it often causes inconsistent output when templates change.",
+    "Heading-like paragraphs not using Heading styles can break TOC and accessibility."
+  ]
+}

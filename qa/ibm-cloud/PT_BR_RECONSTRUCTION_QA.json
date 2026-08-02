@@ -1,0 +1,71 @@
+{
+  "status": "PASS",
+  "english": {
+    "body_paragraphs": 238,
+    "aggregate_paragraphs": 311,
+    "words": 3205,
+    "tables": 3,
+    "table_shapes": [
+      [
+        8,
+        3
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        9,
+        3
+      ]
+    ],
+    "headings": {
+      "Heading 1": 23,
+      "Heading 2": 2
+    },
+    "hyperlinks": 36,
+    "bookmarks": 25,
+    "inline_figures": 2,
+    "sections": 1
+  },
+  "pt_BR": {
+    "body_paragraphs": 238,
+    "aggregate_paragraphs": 311,
+    "words": 4073,
+    "tables": 3,
+    "table_shapes": [
+      [
+        8,
+        3
+      ],
+      [
+        11,
+        2
+      ],
+      [
+        9,
+        3
+      ]
+    ],
+    "headings": {
+      "Heading 1": 23,
+      "Heading 2": 2
+    },
+    "hyperlinks": 36,
+    "bookmarks": 25,
+    "inline_figures": 2,
+    "sections": 1
+  },
+  "word_ratio": 1.271,
+  "docx_package_members": 22,
+  "docx_corrupt_member": null,
+  "docx_media_files": 2,
+  "pdf_pages": 13,
+  "pdf_searchable_characters": 26849,
+  "rendered_pages": 13,
+  "errors": [],
+  "limitations": [
+    "Two embedded English-source figures retain English labels.",
+    "Native Brazilian Portuguese linguistic, IBM Cloud security, legal/regulatory, accessibility, and professional prepress approvals remain pending."
+  ]
+}

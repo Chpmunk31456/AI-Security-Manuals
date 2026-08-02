@@ -1,0 +1,2 @@
+fc0fd9e1a38b6159e389e0028bc2c389062feeb3ccad502897253f8c261c6497  manuals/cloud-ai-security/google-cloud/pt-BR/Protecao_de_IA_Empresarial_no_Google_Cloud_pt-BR_v1.0.docx
+4466cf39c6b8340abb4dd53bee8597f0e7d5c08f430dcafce63ab6a657ca2900  manuals/cloud-ai-security/google-cloud/pt-BR/Protecao_de_IA_Empresarial_no_Google_Cloud_pt-BR_v1.0.pdf

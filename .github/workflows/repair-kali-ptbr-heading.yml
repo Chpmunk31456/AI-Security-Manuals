@@ -1,0 +1,133 @@
+name: Repair Kali pt-BR heading sequence
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - .github/workflows/repair-kali-ptbr-heading.yml
+      - scripts/repair_kali_ptbr_heading.py
+  push:
+    branches:
+      - translation/reconstruct-full-ptbr-and-review-es419
+    paths:
+      - .github/workflows/repair-kali-ptbr-heading.yml
+      - scripts/repair_kali_ptbr_heading.py
+
+permissions:
+  contents: write
+
+concurrency:
+  group: repair-kali-ptbr-heading
+  cancel-in-progress: false
+
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Install document tooling
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libreoffice-writer poppler-utils
+          python -m pip install python-docx pypdf
+      - name: Repair verified heading style
+        run: |
+          python scripts/repair_kali_ptbr_heading.py \
+            --input manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.docx \
+            --output manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.docx
+      - name: Regenerate PDF
+        run: |
+          mkdir -p build/kali-pdf build/kali-pages
+          libreoffice --headless --convert-to pdf --outdir build/kali-pdf \
+            manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.docx
+          cp build/kali-pdf/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.pdf \
+            manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.pdf
+          pdftoppm -png -r 110 \
+            manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.pdf \
+            build/kali-pages/page
+      - name: Verify exact heading parity and package integrity
+        run: |
+          mkdir -p qa/kali-linux
+          python - <<'PY'
+          from docx import Document
+          from pathlib import Path
+          from zipfile import ZipFile
+          from pypdf import PdfReader
+          from hashlib import sha256
+          import json
+
+          root = Path('.')
+          en_path = root/'manuals/kali-linux-ai-security-forensics/en/Kali_Linux_AI_Security_Forensics_en_v1.0.docx'
+          pt_path = root/'manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.docx'
+          pdf_path = pt_path.with_suffix('.pdf')
+          en = Document(en_path)
+          pt = Document(pt_path)
+          en_seq = [p.style.name for p in en.paragraphs if p.style and p.style.name.startswith('Heading')]
+          pt_seq = [p.style.name for p in pt.paragraphs if p.style and p.style.name.startswith('Heading')]
+          errors = []
+          if en_seq != pt_seq:
+              errors.append(f'heading sequence mismatch: English {len(en_seq)}, pt-BR {len(pt_seq)}')
+          target = [p for p in pt.paragraphs if p.text.strip() == 'Fundamentos, Carreras e Habilidades Profissionais de Segurança em IA']
+          if len(target) != 1 or target[0].style.name != 'Heading 1':
+              errors.append('verified target is not Heading 1')
+          with ZipFile(pt_path) as z:
+              corrupt = z.testzip()
+              members = len(z.namelist())
+          if corrupt:
+              errors.append(f'corrupt DOCX member: {corrupt}')
+          reader = PdfReader(pdf_path)
+          rendered = sorted((root/'build/kali-pages').glob('page-*.png'))
+          if len(rendered) != len(reader.pages):
+              errors.append('rendered page count mismatch')
+          report = {
+              'status': 'PASS' if not errors else 'FAIL',
+              'english_heading_count': len(en_seq),
+              'pt_BR_heading_count': len(pt_seq),
+              'heading_sequences_identical': en_seq == pt_seq,
+              'docx_package_members': members,
+              'docx_corrupt_member': corrupt,
+              'pdf_pages': len(reader.pages),
+              'rendered_pages': len(rendered),
+              'errors': errors,
+              'limitations': ['Protected-token and native Brazilian Portuguese review remain pending.']
+          }
+          (root/'qa/kali-linux/PT_BR_HEADING_REPAIR_QA.json').write_text(json.dumps(report, indent=2, ensure_ascii=False), encoding='utf-8')
+          (root/'qa/kali-linux/PT_BR_HEADING_REPAIR_QA.md').write_text(
+              '# Kali Linux pt-BR Heading Repair QA\n\n'
+              f"**Automated result:** {report['status']}\n\n"
+              f"- English headings: {len(en_seq)}\n"
+              f"- pt-BR headings: {len(pt_seq)}\n"
+              f"- Heading style sequence identical: {en_seq == pt_seq}\n"
+              f"- DOCX package integrity: {'PASS' if not corrupt else 'FAIL'} ({members} members)\n"
+              f"- PDF pages: {len(reader.pages)}; rendered pages: {len(rendered)}\n\n"
+              'Protected-token and native Brazilian Portuguese review remain pending.\n',
+              encoding='utf-8')
+          checks = [f"{sha256(p.read_bytes()).hexdigest()}  {p}" for p in (pt_path, pdf_path)]
+          (root/'qa/kali-linux/KALI_PT_BR_SHA256SUMS.txt').write_text('\n'.join(checks)+'\n', encoding='utf-8')
+          if errors:
+              raise SystemExit('\n'.join(errors))
+          PY
+      - name: Upload repaired candidate
+        uses: actions/upload-artifact@v4
+        with:
+          name: kali-ptbr-heading-repair-${{ github.sha }}
+          retention-days: 14
+          if-no-files-found: error
+          path: |
+            manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.docx
+            manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.pdf
+            qa/kali-linux/
+            build/kali-pages/
+      - name: Commit verified repair
+        if: github.event_name == 'push'
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add \
+            manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.docx \
+            manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.pdf \
+            qa/kali-linux
+          git commit -m "Repair Kali Portuguese heading sequence"
+          git push origin HEAD:translation/reconstruct-full-ptbr-and-review-es419

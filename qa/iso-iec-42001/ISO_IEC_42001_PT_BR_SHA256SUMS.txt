@@ -1,0 +1,2 @@
+0743f17494019b1b0e52960579808c26448db044951e64b1745edcf7202000ac  manuals/iso-iec-42001/pt-BR/ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.docx
+bed7c3e236de5234d78a44eabf56b1747d8224ca9d3117809c97e9febe7ecbe3  manuals/iso-iec-42001/pt-BR/ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.pdf

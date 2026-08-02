@@ -7,6 +7,7 @@ on:
       - 'README.md'
       - '**/README.md'
       - 'scripts/audit_full_multilingual_parity.py'
+      - 'scripts/run_refined_multilingual_parity.py'
       - '.github/workflows/full-multilingual-content-parity.yml'
   workflow_dispatch:
 
@@ -24,7 +25,7 @@ jobs:
       - name: Install audit dependencies
         run: pip install python-docx pypdf
       - name: Run fail-closed parity audit
-        run: python scripts/audit_full_multilingual_parity.py
+        run: python scripts/run_refined_multilingual_parity.py
       - name: Upload audit evidence
         if: always()
         uses: actions/upload-artifact@v4

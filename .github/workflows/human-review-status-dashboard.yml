@@ -1,0 +1,36 @@
+name: Human review status dashboard
+
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'qa/human-review/REVIEW_MATRIX.csv'
+      - 'qa/human-review/HUMAN_REVIEW_STATUS.md'
+      - 'scripts/generate_human_review_status.py'
+      - '.github/workflows/human-review-status-dashboard.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify-dashboard:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Regenerate dashboard
+        run: python scripts/generate_human_review_status.py
+      - name: Verify committed dashboard is current
+        run: git diff --exit-code -- qa/human-review/HUMAN_REVIEW_STATUS.md
+      - name: Upload dashboard evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: human-review-status-${{ github.sha }}
+          path: |
+            qa/human-review/HUMAN_REVIEW_STATUS.md
+            qa/human-review/REVIEW_MATRIX.csv
+          retention-days: 90
+          if-no-files-found: error
