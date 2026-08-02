@@ -1,0 +1,34 @@
+name: Full multilingual content parity
+
+on:
+  pull_request:
+    paths:
+      - 'manuals/**'
+      - 'README.md'
+      - '**/README.md'
+      - 'scripts/audit_full_multilingual_parity.py'
+      - '.github/workflows/full-multilingual-content-parity.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install audit dependencies
+        run: pip install python-docx pypdf
+      - name: Run fail-closed parity audit
+        run: python scripts/audit_full_multilingual_parity.py
+      - name: Upload audit evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: full-multilingual-content-parity
+          path: qa/full-multilingual-parity/
+          if-no-files-found: error
