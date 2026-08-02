@@ -3,7 +3,7 @@
 **Status: PASS WITH DOCUMENTED LIMITATIONS**
 
 - Starting branch SHA: `15f424bd6b295a4e5e8a17b31566cbae76f1cb0f`
-- Package candidate SHA: to be recorded after the first publication commit
+- Package candidate SHA: `7f087bc5626e34a779c5e9001d0a7ae64bd20e69`
 - Scope: AWS Brazilian Portuguese DOCX/PDF only
 - English authority: `manuals/cloud-ai-security/aws/en/Securing_Enterprise_AI_on_AWS_en_v1.0.docx`
 - Previous condensed package: the same pt-BR DOCX/PDF paths, previously 76 body paragraphs and a five-page PDF
@@ -53,6 +53,7 @@ The pt-BR edition retains the English authority's written-authorization requirem
 - Paragraphs, styles, heading hierarchy/order, lists, numbering, table count/shapes, figures, media, hyperlinks, bookmarks, sections, headers, footers, and metadata: PASS
 - LibreOffice opening/conversion: PASS without repair prompt
 - Local Git blob: `2534a002cf468e9e0ad13cd150ea9707cada754b`
+- Committed and remote Git blob: `2534a002cf468e9e0ad13cd150ea9707cada754b`
 - SHA-256: `31a9dbf879cdf9d14cb75490e337a2e965f638638e536feb8ce5e8e7d47b6e79`
 
 ## PDF validation and visual inspection
@@ -64,14 +65,15 @@ The pt-BR edition retains the English authority's written-authorization requirem
 - Rasterization: 86/86 pages rendered successfully
 - Visual inspection: all 86 pages were inspected in order. No translation-introduced clipping, overlap, broken table, blank page, distorted figure, unreadable command, or missing glyph was observed.
 - Local Git blob: `5e8a7cb81ffedbac36c6baa8f7a63dbfebd356ec`
+- Committed and remote Git blob: `5e8a7cb81ffedbac36c6baa8f7a63dbfebd356ec`
 - SHA-256: `66ee1f193339a1e64bd9886af4c081565990fb6da5b1e43916aeb41ea08fb083`
 
 ## Exact-byte and audit checkpoint
 
-Committed and remote blob hashes will be recorded against the package candidate commit. The local blobs above are the exact bytes selected for publication; no connector-generated or alternate binary was used for validation.
+The local, committed, and remote blob hashes match for both publication binaries at package candidate `7f087bc5626e34a779c5e9001d0a7ae64bd20e69`. The committed bytes are the exact files validated locally; no alternate binary was used for validation.
 
-- Final repository integrity audit: pending exact candidate checkout
-- Full multilingual content parity audit: expected repository-wide `FAIL` until Google Cloud, Oracle Cloud, IBM Cloud, Kali, and Spanish review units are completed
+- Final repository integrity audit: local `PASS`; GitHub Actions pending exact final evidence head
+- Full multilingual content parity audit: local repository-wide `FAIL` with 36 findings (28 HIGH, 8 BLOCKER), as expected until Google Cloud, Oracle Cloud, IBM Cloud, Kali, and Spanish review units are completed
 - AWS acceptance requires no package-readability, heading-loss, table-loss, or structural-loss finding on the exact candidate
 
 ## Unresolved limitations
