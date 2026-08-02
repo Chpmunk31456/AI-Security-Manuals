@@ -2,15 +2,19 @@
 
 Edição em português do Brasil (`pt-BR`).
 
-- [DOCX](Protecao_de_IA_Empresarial_no_Microsoft_Azure_pt-BR_v1.0.docx)
+## Baixar arquivos
+
 - [PDF](Protecao_de_IA_Empresarial_no_Microsoft_Azure_pt-BR_v1.0.pdf)
+- [DOCX](Protecao_de_IA_Empresarial_no_Microsoft_Azure_pt-BR_v1.0.docx)
 
-## Situação da tradução
+## Situação da publicação
 
-O conteúdo condensado anterior foi substituído por uma reconstrução completa baseada no DOCX inglês. O Google Translate foi usado somente para uma primeira versão assistida por máquina; estrutura, termos protegidos, nomes de produtos, números, tabelas, figuras, links, avisos e limites de uso autorizado foram comparados posteriormente com a fonte inglesa e corrigidos quando necessário.
+A edição completa substituiu o conteúdo condensado anterior. As verificações automatizadas de estrutura, terminologia, produtos, números, tabelas, figuras, links, avisos, limites de uso autorizado, pacote e PDF foram concluídas, e a aprovação atribuível foi registrada para o SHA de publicação `7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4`.
 
-As verificações automatizadas de estrutura e empacotamento foram concluídas. A aprovação independente por profissional nativo de português brasileiro e a localização dos rótulos incorporados nas figuras ainda estão pendentes. Consulte o [relatório de QA](../../../../qa/microsoft-azure/PT_BR_RECONSTRUCTION_QA.md).
+Consulte o [relatório de QA](../../../../qa/microsoft-azure/PT_BR_RECONSTRUCTION_QA.md) e a [evidência de revisão](../../../../qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md).
 
-Versão 1.0 produzida em julho de 2026. Verifique informações atuais em fontes oficiais antes do uso operacional.
+## Aviso
 
-Criado e dirigido por **Alberto (Al) Leiva**. O ChatGPT apoiou pesquisa, organização, tradução e preparação sob direção do autor.
+Verifique informações técnicas, legais, regulatórias e de produtos em fontes oficiais vigentes antes do uso operacional.
+
+Versão 1.0. Criado e dirigido por **Alberto (Al) Leiva**. O ChatGPT apoiou pesquisa, organização, tradução e preparação sob direção do autor.

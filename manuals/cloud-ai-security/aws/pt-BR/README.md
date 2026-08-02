@@ -2,14 +2,19 @@
 
 Edição em português do Brasil (`pt-BR`).
 
-- [DOCX](Protecao_de_IA_Empresarial_na_AWS_pt-BR_v1.0.docx)
+## Baixar arquivos
+
 - [PDF](Protecao_de_IA_Empresarial_na_AWS_pt-BR_v1.0.pdf)
+- [DOCX](Protecao_de_IA_Empresarial_na_AWS_pt-BR_v1.0.docx)
 
-Esta edição completa foi reconstruída a partir do DOCX inglês autoritativo. O Google Translate foi usado somente para uma primeira passagem assistida por máquina; estrutura, terminologia protegida, segurança, autorização, links e pacotes de publicação foram comparados e corrigidos contra a fonte inglesa.
+## Situação da publicação
 
-**Status:** `PASS WITH DOCUMENTED LIMITATIONS` para verificações automatizadas de estrutura, pacote e renderização. A revisão e aprovação por especialista nativo em português do Brasil permanecem pendentes. Rótulos incorporados nas figuras reutilizadas permanecem em inglês.
+A edição completa substituiu o conteúdo condensado anterior. As verificações automatizadas de estrutura, terminologia, segurança, autorização, links, pacote e renderização foram concluídas, e a aprovação atribuível foi registrada para o SHA de publicação `7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4`.
 
-Versão 1.0 produzida em julho de 2026. Verifique informações atuais em fontes oficiais antes do uso operacional.
+Consulte o [relatório de QA](../../../../qa/aws/PT_BR_RECONSTRUCTION_QA.md) e a [evidência de revisão](../../../../qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md).
 
-Criado e dirigido por **Alberto (Al) Leiva**. O ChatGPT apoiou pesquisa, organização, tradução e preparação sob direção do autor.
+## Aviso
 
+Verifique informações técnicas, legais, regulatórias e de produtos em fontes oficiais vigentes antes do uso operacional.
+
+Versão 1.0. Criado e dirigido por **Alberto (Al) Leiva**. O ChatGPT apoiou pesquisa, organização, tradução e preparação sob direção do autor.

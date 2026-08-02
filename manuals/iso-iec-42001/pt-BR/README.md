@@ -1,16 +1,20 @@
-# ISO/IEC 42001:2023 - Manual Prático do Sistema de Gestão de Inteligência Artificial
+# ISO/IEC 42001:2023 — Manual Prático do Sistema de Gestão de Inteligência Artificial
 
 Edição em português do Brasil (`pt-BR`).
 
-- [DOCX](ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.docx)
+## Baixar arquivos
+
 - [PDF](ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.pdf)
+- [DOCX](ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.docx)
 
-## Situação da tradução
+## Situação da publicação
 
-O conteúdo condensado anterior foi substituído por uma reconstrução completa baseada no DOCX em inglês. O Google Translate foi usado somente para uma primeira versão assistida por máquina; a estrutura, os termos protegidos, os identificadores de seção, os nomes de produtos, as tabelas, as figuras e os links foram comparados posteriormente com a fonte inglesa e corrigidos quando necessário.
+A edição completa substituiu o conteúdo condensado anterior. As verificações automatizadas de estrutura, termos protegidos, tabelas, figuras, links, pacote e PDF foram concluídas, e a aprovação atribuível foi registrada para o SHA de publicação `7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4`.
 
-As verificações automatizadas de estrutura e empacotamento foram concluídas. A aprovação independente por profissional nativo de português brasileiro e a localização dos rótulos incorporados nas figuras ainda estão pendentes. Consulte o [relatório de QA](../../../qa/iso-iec-42001/PT_BR_RECONSTRUCTION_QA.md).
+Consulte o [relatório de QA](../../../qa/iso-iec-42001/PT_BR_RECONSTRUCTION_QA.md) e a [evidência de revisão](../../../qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md).
 
-Versão 1.0 produzida em julho de 2026. Verifique informações atuais em fontes oficiais antes do uso operacional.
+## Aviso
 
-Criado e dirigido por **Alberto (Al) Leiva**. O ChatGPT apoiou pesquisa, organização, tradução e preparação sob direção do autor.
+Este manual é educacional e não reproduz nem substitui o texto oficial da norma. Verifique requisitos e informações vigentes em fontes autorizadas antes do uso operacional.
+
+Versão 1.0. Criado e dirigido por **Alberto (Al) Leiva**. O ChatGPT apoiou pesquisa, organização, tradução e preparação sob direção do autor.
