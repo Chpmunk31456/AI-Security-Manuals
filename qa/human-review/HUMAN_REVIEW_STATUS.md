@@ -28,7 +28,7 @@ This dashboard is generated from `REVIEW_MATRIX.csv`. It reports evidence state 
 
 ## Release blockers
 
-All 64 required matrix gates remain `PENDING`. See `REVIEW_MATRIX.csv` for the authoritative gate-level inventory.
+All 64 required matrix gates remain non-approved. See `REVIEW_MATRIX.csv` for the authoritative gate-level inventory.
 
 ## Control references
 
