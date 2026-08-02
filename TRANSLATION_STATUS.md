@@ -12,9 +12,19 @@ Automated protected-token review still requires contextual disposition for `AI R
 
 See [`qa/ai-risk-management/PT_BR_RECONSTRUCTION_QA.md`](qa/ai-risk-management/PT_BR_RECONSTRUCTION_QA.md).
 
+## ISO/IEC 42001 pt-BR
+
+**Status: PASS WITH DOCUMENTED LIMITATIONS** for automated structure and package checks; native-language approval remains pending.
+
+The condensed eight-page package was replaced with a complete reconstruction from the English authority. The reconstructed DOCX preserves 653 paragraphs, 126 headings, 41 tables, 10 inline figures, 34 external hyperlink targets, and the original table shapes and embedded media. Its searchable PDF contains 53 nonblank pages.
+
+Google Translate and Google Drive were used only for a machine-assisted first pass and document conversion. Reproducible mistranslations of `AIMS`, `SoA`, `RAG`, section identifiers, and product names were corrected against English. Embedded figure labels remain English, and no native Brazilian Portuguese approval is claimed.
+
+See [`qa/iso-iec-42001/PT_BR_RECONSTRUCTION_QA.md`](qa/iso-iec-42001/PT_BR_RECONSTRUCTION_QA.md).
+
 ## Remaining Brazilian Portuguese remediation
 
-ISO/IEC 42001, Microsoft Azure, AWS, Google Cloud, Oracle Cloud, and IBM Cloud remain incomplete condensed editions. Kali Linux remains pending protected-token and native-language review.
+Microsoft Azure, AWS, Google Cloud, Oracle Cloud, and IBM Cloud remain incomplete condensed editions. Kali Linux remains pending protected-token and native-language review.
 
 ## Latin American Spanish
 

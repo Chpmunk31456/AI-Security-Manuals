@@ -10,6 +10,9 @@ All notable repository-level changes are documented here.
 - Restored 99 headings, 42 tables, 10 inline figures, complete examples, warnings, checklists, references, and safety language.
 - Rebuilt the searchable pt-BR PDF and added scoped QA evidence and SHA-256 checksums.
 - Kept native-language approval and unresolved protected-token dispositions explicit; repository-wide parity remains `FAIL`.
+- Replaced the condensed Brazilian Portuguese ISO/IEC 42001 package with a complete English-authority reconstruction.
+- Restored 653 paragraphs, 126 headings, 41 tables, 10 inline figures, and all 34 external hyperlink targets; rebuilt the searchable 53-page PDF.
+- Corrected machine-translation defects affecting `AIMS`, `SoA`, `RAG`, section identifiers, and protected product names, while retaining explicit native-language and embedded-figure-label limitations.
 
 ### Audit
 
