@@ -1,0 +1,2 @@
+6db5edc3575321a78e004255703d04cc2d58987cd7f051201c768ef50f9a13ee  manuals/cloud-ai-security/oracle-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_Oracle_Cloud_pt-BR_v1.0.docx
+bdad5a74b45e937104bdda6d51034fbc68eb1093c37f7ddf298dffc774e11dc6  manuals/cloud-ai-security/oracle-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_Oracle_Cloud_pt-BR_v1.0.pdf

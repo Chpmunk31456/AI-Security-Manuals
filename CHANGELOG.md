@@ -22,6 +22,9 @@ All notable repository-level changes are documented here.
 - Replaced the condensed Google Cloud Brazilian Portuguese package with a complete English-authority reconstruction.
 - Restored 1,356 body paragraphs, 207 headings, 715 list paragraphs, 62 tables, 8 inline figures, 7 embedded media files, 53 hyperlinks, and 29 bookmarks; rebuilt and visually inspected the searchable 93-page PDF.
 - Corrected machine-translation defects affecting protected Google product names, `RAG`, `shadow AI`, embeddings, prompt terminology, and governance language; retained explicit machine-assistance, English embedded-figure-label, and pending human-review limitations.
+- Replaced the condensed Oracle Cloud Infrastructure Brazilian Portuguese package with a complete English-authority reconstruction.
+- Restored 238 body paragraphs, 311 aggregate paragraphs, 25 headings, 10 numbered-list paragraphs, 3 tables, 2 inline figures, 2 embedded media files, 36 hyperlinks, and 25 bookmarks; rebuilt and visually inspected the searchable 12-page PDF.
+- Corrected machine-translation defects affecting protected Oracle service names, `RAG`, `MCP`, prompt injection, embeddings, guardrails, vector stores, and OCI identity terminology; retained explicit machine-assistance, English embedded-figure-label, and pending human-review limitations.
 
 ### Audit
 

@@ -1,0 +1,12 @@
+{
+  "status": "pass",
+  "metrics": {
+    "markdown_files": 48,
+    "local_links": 178,
+    "docx_files": 24,
+    "pdf_files": 24,
+    "manual_families": 8
+  },
+  "errors": [],
+  "warnings": []
+}

@@ -3,11 +3,12 @@ from __future__ import annotations
 
 import json
 import re
-import subprocess
 import sys
 import zipfile
 from pathlib import Path
 from urllib.parse import unquote
+
+from pypdf import PdfReader
 
 ROOT = Path(__file__).resolve().parents[1]
 REPORT_JSON = ROOT / "final-integrity-report.json"
@@ -91,13 +92,12 @@ def check_pdfs() -> None:
             if not data.startswith(b"%PDF-"):
                 add_error(f"Invalid PDF signature: {path.relative_to(ROOT)}")
                 continue
-            info = subprocess.run(["pdfinfo", str(path)], capture_output=True, text=True)
-            if info.returncode != 0:
-                add_error(f"pdfinfo failed: {path.relative_to(ROOT)}")
-            text = subprocess.run(["pdftotext", str(path), "-"], capture_output=True, text=True)
-            if text.returncode != 0:
-                add_error(f"pdftotext failed: {path.relative_to(ROOT)}")
-            elif len(re.sub(r"\s+", "", text.stdout)) < 300:
+            reader = PdfReader(path)
+            if not reader.pages:
+                add_error(f"PDF has no pages: {path.relative_to(ROOT)}")
+                continue
+            text = "\n".join(page.extract_text() or "" for page in reader.pages)
+            if len(re.sub(r"\s+", "", text)) < 300:
                 add_error(f"PDF is not sufficiently searchable: {path.relative_to(ROOT)}")
         except Exception as exc:
             add_error(f"PDF cannot be inspected: {path.relative_to(ROOT)} ({exc})")

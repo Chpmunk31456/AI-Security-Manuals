@@ -42,8 +42,6 @@ Google Translate and Google Drive were used only for a machine-assisted first pa
 
 See [`qa/aws/PT_BR_RECONSTRUCTION_QA.md`](qa/aws/PT_BR_RECONSTRUCTION_QA.md).
 
-## Remaining Brazilian Portuguese remediation
-
 ## Google Cloud pt-BR
 
 **Status: PASS WITH DOCUMENTED LIMITATIONS** for automated structure, package, and visual checks; native-language approval remains pending.
@@ -54,9 +52,19 @@ Google Translate and Google Drive were used only for a machine-assisted first pa
 
 See [`qa/google-cloud/PT_BR_RECONSTRUCTION_QA.md`](qa/google-cloud/PT_BR_RECONSTRUCTION_QA.md).
 
+## Oracle Cloud Infrastructure pt-BR
+
+**Status: PASS WITH DOCUMENTED LIMITATIONS** for automated structure, package, accessibility, and visual checks; native-language approval remains pending.
+
+The condensed 806-word package was replaced with a complete reconstruction from the English authority. The reconstructed DOCX preserves 238 body paragraphs, 311 paragraphs including table cells, 25 headings, 10 numbered-list paragraphs, 3 tables, 2 inline figures, 2 embedded media files, 36 hyperlinks, 25 bookmarks, and the authoritative section order and table shapes. Its searchable PDF contains 12 nonblank pages, all rendered and inspected.
+
+Google Translate and Google Drive were used only for a machine-assisted first pass and document conversion. Contextual review corrected mistranslations affecting `RAG`, `MCP`, prompt injection, embeddings, guardrails, vector stores, OCI identity terminology, and protected Oracle service names. Two embedded English-source figures retain English labels, and no native Brazilian Portuguese approval is claimed.
+
+See [`qa/oracle-cloud/PT_BR_RECONSTRUCTION_QA.md`](qa/oracle-cloud/PT_BR_RECONSTRUCTION_QA.md).
+
 ## Remaining Brazilian Portuguese remediation
 
-Oracle Cloud and IBM Cloud remain incomplete condensed editions. Kali Linux remains pending protected-token and native-language review.
+IBM Cloud remains an incomplete condensed edition. Kali Linux remains pending protected-token and native-language review.
 
 ## Latin American Spanish
 
