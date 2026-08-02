@@ -125,4 +125,4 @@ The mission of this repository is to make AI security education practical, under
 
 **Author:** Alberto (Al) Leiva  
 **Release series:** Version 1.0  
-**Last updated:** July 2026
+**Last updated:** August 2026
