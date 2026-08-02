@@ -1,0 +1,2 @@
+5b471d5785189892f087a108daf285535dacdb1131dfbe29c3738db1edca764b  manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.docx
+ab5d52195c697899e6f82f971ed932c227d535b56cee874d69dfb117687381ce  manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.pdf
