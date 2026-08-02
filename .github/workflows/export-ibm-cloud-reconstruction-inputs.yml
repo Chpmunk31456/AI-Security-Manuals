@@ -2,6 +2,13 @@ name: Export IBM Cloud reconstruction inputs
 
 on:
   workflow_dispatch:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - .github/workflows/export-ibm-cloud-reconstruction-inputs.yml
+      - manuals/cloud-ai-security/ibm-cloud/en/IBM_Cloud_AI_Security_Manual_en_v1.0.docx
+      - manuals/cloud-ai-security/ibm-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_IBM_Cloud_pt-BR_v1.0.docx
   push:
     branches:
       - translation/reconstruct-full-ptbr-and-review-es419
