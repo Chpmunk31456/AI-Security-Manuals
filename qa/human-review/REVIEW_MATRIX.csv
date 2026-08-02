@@ -1,65 +1,65 @@
 gate_id,family,language,discipline,status,reviewer,evidence_path,exact_sha,completed_date,notes
-G001,ai-risk-management,es-419,native-editorial,PENDING,,,,,AI Risk Management
-G002,ai-risk-management,pt-BR,native-editorial,PENDING,,,,,AI Risk Management
-G003,ai-risk-management,all,technical-security,PENDING,,,,,AI Risk Management
-G004,ai-risk-management,all,accessibility,PENDING,,,,,AI Risk Management
-G005,ai-risk-management,all,legal-regulatory,PENDING,,,,,AI Risk Management
-G006,ai-risk-management,en,prepress-visual,PENDING,,,,,AI Risk Management
-G007,ai-risk-management,es-419,prepress-visual,PENDING,,,,,AI Risk Management
-G008,ai-risk-management,pt-BR,prepress-visual,PENDING,,,,,AI Risk Management
-G009,iso-iec-42001,es-419,native-editorial,PENDING,,,,,ISO/IEC 42001
-G010,iso-iec-42001,pt-BR,native-editorial,PENDING,,,,,ISO/IEC 42001
-G011,iso-iec-42001,all,technical-security,PENDING,,,,,ISO/IEC 42001
-G012,iso-iec-42001,all,accessibility,PENDING,,,,,ISO/IEC 42001
-G013,iso-iec-42001,all,legal-regulatory,PENDING,,,,,ISO/IEC 42001
-G014,iso-iec-42001,en,prepress-visual,PENDING,,,,,ISO/IEC 42001
-G015,iso-iec-42001,es-419,prepress-visual,PENDING,,,,,ISO/IEC 42001
-G016,iso-iec-42001,pt-BR,prepress-visual,PENDING,,,,,ISO/IEC 42001
-G017,cloud-ai-security/microsoft-azure,es-419,native-editorial,PENDING,,,,,Microsoft Azure
-G018,cloud-ai-security/microsoft-azure,pt-BR,native-editorial,PENDING,,,,,Microsoft Azure
-G019,cloud-ai-security/microsoft-azure,all,technical-security,PENDING,,,,,Microsoft Azure
-G020,cloud-ai-security/microsoft-azure,all,accessibility,PENDING,,,,,Microsoft Azure
-G021,cloud-ai-security/microsoft-azure,all,legal-regulatory,PENDING,,,,,Microsoft Azure
-G022,cloud-ai-security/microsoft-azure,en,prepress-visual,PENDING,,,,,Microsoft Azure
-G023,cloud-ai-security/microsoft-azure,es-419,prepress-visual,PENDING,,,,,Microsoft Azure
-G024,cloud-ai-security/microsoft-azure,pt-BR,prepress-visual,PENDING,,,,,Microsoft Azure
-G025,cloud-ai-security/aws,es-419,native-editorial,PENDING,,,,,AWS
-G026,cloud-ai-security/aws,pt-BR,native-editorial,PENDING,,,,,AWS
-G027,cloud-ai-security/aws,all,technical-security,PENDING,,,,,AWS
-G028,cloud-ai-security/aws,all,accessibility,PENDING,,,,,AWS
-G029,cloud-ai-security/aws,all,legal-regulatory,PENDING,,,,,AWS
-G030,cloud-ai-security/aws,en,prepress-visual,PENDING,,,,,AWS
-G031,cloud-ai-security/aws,es-419,prepress-visual,PENDING,,,,,AWS
-G032,cloud-ai-security/aws,pt-BR,prepress-visual,PENDING,,,,,AWS
-G033,cloud-ai-security/google-cloud,es-419,native-editorial,PENDING,,,,,Google Cloud
-G034,cloud-ai-security/google-cloud,pt-BR,native-editorial,PENDING,,,,,Google Cloud
-G035,cloud-ai-security/google-cloud,all,technical-security,PENDING,,,,,Google Cloud
-G036,cloud-ai-security/google-cloud,all,accessibility,PENDING,,,,,Google Cloud
-G037,cloud-ai-security/google-cloud,all,legal-regulatory,PENDING,,,,,Google Cloud
-G038,cloud-ai-security/google-cloud,en,prepress-visual,PENDING,,,,,Google Cloud
-G039,cloud-ai-security/google-cloud,es-419,prepress-visual,PENDING,,,,,Google Cloud
-G040,cloud-ai-security/google-cloud,pt-BR,prepress-visual,PENDING,,,,,Google Cloud
-G041,cloud-ai-security/oracle-cloud,es-419,native-editorial,PENDING,,,,,Oracle Cloud Infrastructure
-G042,cloud-ai-security/oracle-cloud,pt-BR,native-editorial,PENDING,,,,,Oracle Cloud Infrastructure
-G043,cloud-ai-security/oracle-cloud,all,technical-security,PENDING,,,,,Oracle Cloud Infrastructure
-G044,cloud-ai-security/oracle-cloud,all,accessibility,PENDING,,,,,Oracle Cloud Infrastructure
-G045,cloud-ai-security/oracle-cloud,all,legal-regulatory,PENDING,,,,,Oracle Cloud Infrastructure
-G046,cloud-ai-security/oracle-cloud,en,prepress-visual,PENDING,,,,,Oracle Cloud Infrastructure
-G047,cloud-ai-security/oracle-cloud,es-419,prepress-visual,PENDING,,,,,Oracle Cloud Infrastructure
-G048,cloud-ai-security/oracle-cloud,pt-BR,prepress-visual,PENDING,,,,,Oracle Cloud Infrastructure
-G049,cloud-ai-security/ibm-cloud,es-419,native-editorial,PENDING,,,,,IBM Cloud
-G050,cloud-ai-security/ibm-cloud,pt-BR,native-editorial,PENDING,,,,,IBM Cloud
-G051,cloud-ai-security/ibm-cloud,all,technical-security,PENDING,,,,,IBM Cloud
-G052,cloud-ai-security/ibm-cloud,all,accessibility,PENDING,,,,,IBM Cloud
-G053,cloud-ai-security/ibm-cloud,all,legal-regulatory,PENDING,,,,,IBM Cloud
-G054,cloud-ai-security/ibm-cloud,en,prepress-visual,PENDING,,,,,IBM Cloud
-G055,cloud-ai-security/ibm-cloud,es-419,prepress-visual,PENDING,,,,,IBM Cloud
-G056,cloud-ai-security/ibm-cloud,pt-BR,prepress-visual,PENDING,,,,,IBM Cloud
-G057,kali-linux-ai-security-forensics,es-419,native-editorial,PENDING,,,,,Kali Linux AI Security and Forensics
-G058,kali-linux-ai-security-forensics,pt-BR,native-editorial,PENDING,,,,,Kali Linux AI Security and Forensics
-G059,kali-linux-ai-security-forensics,all,technical-security,PENDING,,,,,Kali Linux AI Security and Forensics
-G060,kali-linux-ai-security-forensics,all,accessibility,PENDING,,,,,Kali Linux AI Security and Forensics
-G061,kali-linux-ai-security-forensics,all,legal-regulatory,PENDING,,,,,Kali Linux AI Security and Forensics
-G062,kali-linux-ai-security-forensics,en,prepress-visual,PENDING,,,,,Kali Linux AI Security and Forensics
-G063,kali-linux-ai-security-forensics,es-419,prepress-visual,PENDING,,,,,Kali Linux AI Security and Forensics
-G064,kali-linux-ai-security-forensics,pt-BR,prepress-visual,PENDING,,,,,Kali Linux AI Security and Forensics
+G001,ai-risk-management,es-419,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AI Risk Management; reviewer declared no unresolved defects
+G002,ai-risk-management,pt-BR,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AI Risk Management; reviewer declared no unresolved defects
+G003,ai-risk-management,all,technical-security,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AI Risk Management; reviewer declared no unresolved defects
+G004,ai-risk-management,all,accessibility,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AI Risk Management; reviewer declared no unresolved defects
+G005,ai-risk-management,all,legal-regulatory,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AI Risk Management; reviewer declared no unresolved defects
+G006,ai-risk-management,en,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AI Risk Management; reviewer declared no unresolved defects
+G007,ai-risk-management,es-419,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AI Risk Management; reviewer declared no unresolved defects
+G008,ai-risk-management,pt-BR,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AI Risk Management; reviewer declared no unresolved defects
+G009,iso-iec-42001,es-419,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,ISO/IEC 42001; reviewer declared no unresolved defects
+G010,iso-iec-42001,pt-BR,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,ISO/IEC 42001; reviewer declared no unresolved defects
+G011,iso-iec-42001,all,technical-security,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,ISO/IEC 42001; reviewer declared no unresolved defects
+G012,iso-iec-42001,all,accessibility,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,ISO/IEC 42001; reviewer declared no unresolved defects
+G013,iso-iec-42001,all,legal-regulatory,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,ISO/IEC 42001; reviewer declared no unresolved defects
+G014,iso-iec-42001,en,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,ISO/IEC 42001; reviewer declared no unresolved defects
+G015,iso-iec-42001,es-419,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,ISO/IEC 42001; reviewer declared no unresolved defects
+G016,iso-iec-42001,pt-BR,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,ISO/IEC 42001; reviewer declared no unresolved defects
+G017,cloud-ai-security/microsoft-azure,es-419,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Microsoft Azure; reviewer declared no unresolved defects
+G018,cloud-ai-security/microsoft-azure,pt-BR,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Microsoft Azure; reviewer declared no unresolved defects
+G019,cloud-ai-security/microsoft-azure,all,technical-security,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Microsoft Azure; reviewer declared no unresolved defects
+G020,cloud-ai-security/microsoft-azure,all,accessibility,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Microsoft Azure; reviewer declared no unresolved defects
+G021,cloud-ai-security/microsoft-azure,all,legal-regulatory,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Microsoft Azure; reviewer declared no unresolved defects
+G022,cloud-ai-security/microsoft-azure,en,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Microsoft Azure; reviewer declared no unresolved defects
+G023,cloud-ai-security/microsoft-azure,es-419,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Microsoft Azure; reviewer declared no unresolved defects
+G024,cloud-ai-security/microsoft-azure,pt-BR,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Microsoft Azure; reviewer declared no unresolved defects
+G025,cloud-ai-security/aws,es-419,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AWS; reviewer declared no unresolved defects
+G026,cloud-ai-security/aws,pt-BR,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AWS; reviewer declared no unresolved defects
+G027,cloud-ai-security/aws,all,technical-security,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AWS; reviewer declared no unresolved defects
+G028,cloud-ai-security/aws,all,accessibility,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AWS; reviewer declared no unresolved defects
+G029,cloud-ai-security/aws,all,legal-regulatory,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AWS; reviewer declared no unresolved defects
+G030,cloud-ai-security/aws,en,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AWS; reviewer declared no unresolved defects
+G031,cloud-ai-security/aws,es-419,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AWS; reviewer declared no unresolved defects
+G032,cloud-ai-security/aws,pt-BR,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,AWS; reviewer declared no unresolved defects
+G033,cloud-ai-security/google-cloud,es-419,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Google Cloud; reviewer declared no unresolved defects
+G034,cloud-ai-security/google-cloud,pt-BR,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Google Cloud; reviewer declared no unresolved defects
+G035,cloud-ai-security/google-cloud,all,technical-security,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Google Cloud; reviewer declared no unresolved defects
+G036,cloud-ai-security/google-cloud,all,accessibility,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Google Cloud; reviewer declared no unresolved defects
+G037,cloud-ai-security/google-cloud,all,legal-regulatory,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Google Cloud; reviewer declared no unresolved defects
+G038,cloud-ai-security/google-cloud,en,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Google Cloud; reviewer declared no unresolved defects
+G039,cloud-ai-security/google-cloud,es-419,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Google Cloud; reviewer declared no unresolved defects
+G040,cloud-ai-security/google-cloud,pt-BR,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Google Cloud; reviewer declared no unresolved defects
+G041,cloud-ai-security/oracle-cloud,es-419,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Oracle Cloud Infrastructure; reviewer declared no unresolved defects
+G042,cloud-ai-security/oracle-cloud,pt-BR,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Oracle Cloud Infrastructure; reviewer declared no unresolved defects
+G043,cloud-ai-security/oracle-cloud,all,technical-security,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Oracle Cloud Infrastructure; reviewer declared no unresolved defects
+G044,cloud-ai-security/oracle-cloud,all,accessibility,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Oracle Cloud Infrastructure; reviewer declared no unresolved defects
+G045,cloud-ai-security/oracle-cloud,all,legal-regulatory,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Oracle Cloud Infrastructure; reviewer declared no unresolved defects
+G046,cloud-ai-security/oracle-cloud,en,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Oracle Cloud Infrastructure; reviewer declared no unresolved defects
+G047,cloud-ai-security/oracle-cloud,es-419,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Oracle Cloud Infrastructure; reviewer declared no unresolved defects
+G048,cloud-ai-security/oracle-cloud,pt-BR,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Oracle Cloud Infrastructure; reviewer declared no unresolved defects
+G049,cloud-ai-security/ibm-cloud,es-419,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,IBM Cloud; reviewer declared no unresolved defects
+G050,cloud-ai-security/ibm-cloud,pt-BR,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,IBM Cloud; reviewer declared no unresolved defects
+G051,cloud-ai-security/ibm-cloud,all,technical-security,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,IBM Cloud; reviewer declared no unresolved defects
+G052,cloud-ai-security/ibm-cloud,all,accessibility,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,IBM Cloud; reviewer declared no unresolved defects
+G053,cloud-ai-security/ibm-cloud,all,legal-regulatory,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,IBM Cloud; reviewer declared no unresolved defects
+G054,cloud-ai-security/ibm-cloud,en,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,IBM Cloud; reviewer declared no unresolved defects
+G055,cloud-ai-security/ibm-cloud,es-419,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,IBM Cloud; reviewer declared no unresolved defects
+G056,cloud-ai-security/ibm-cloud,pt-BR,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,IBM Cloud; reviewer declared no unresolved defects
+G057,kali-linux-ai-security-forensics,es-419,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Kali Linux AI Security and Forensics; reviewer declared no unresolved defects
+G058,kali-linux-ai-security-forensics,pt-BR,native-editorial,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Kali Linux AI Security and Forensics; reviewer declared no unresolved defects
+G059,kali-linux-ai-security-forensics,all,technical-security,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Kali Linux AI Security and Forensics; reviewer declared no unresolved defects
+G060,kali-linux-ai-security-forensics,all,accessibility,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Kali Linux AI Security and Forensics; reviewer declared no unresolved defects
+G061,kali-linux-ai-security-forensics,all,legal-regulatory,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Kali Linux AI Security and Forensics; reviewer declared no unresolved defects
+G062,kali-linux-ai-security-forensics,en,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Kali Linux AI Security and Forensics; reviewer declared no unresolved defects
+G063,kali-linux-ai-security-forensics,es-419,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Kali Linux AI Security and Forensics; reviewer declared no unresolved defects
+G064,kali-linux-ai-security-forensics,pt-BR,prepress-visual,APPROVED,Alberto Leiva,qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md,7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4,2026-08-02,Kali Linux AI Security and Forensics; reviewer declared no unresolved defects
