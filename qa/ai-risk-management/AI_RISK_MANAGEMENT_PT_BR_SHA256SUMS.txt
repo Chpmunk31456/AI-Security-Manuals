@@ -1,0 +1,2 @@
+a28a160f8571fd93f48216006e7240c608fb1d286a09e294a98bdd68fcde224f  manuals/ai-risk-management/pt-BR/Gestao_de_Riscos_Governanca_e_Seguranca_de_IA_pt-BR_v1.0.docx
+113c2c3f5553cea32630b00a5931142bc0cabcc73d10d83dc33746453e924652  manuals/ai-risk-management/pt-BR/Gestao_de_Riscos_Governanca_e_Seguranca_de_IA_pt-BR_v1.0.pdf

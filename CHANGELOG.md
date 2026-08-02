@@ -4,6 +4,20 @@ All notable repository-level changes are documented here.
 
 ## Unreleased
 
+### Translation remediation
+
+- Replaced the condensed Brazilian Portuguese AI Risk Management package with a complete English-baseline reconstruction.
+- Restored 99 headings, 42 tables, 10 inline figures, complete examples, warnings, checklists, references, and safety language.
+- Rebuilt the searchable pt-BR PDF and added scoped QA evidence and SHA-256 checksums.
+- Kept native-language approval and unresolved protected-token dispositions explicit; repository-wide parity remains `FAIL`.
+
+### Audit
+
+- Added a fail-closed multilingual parity audit for all eight manual families at baseline `be497599c055d3f611298d999c501a8d84e768d5`.
+- Documented that seven Brazilian Portuguese packages are condensed summaries rather than full translations and added visible README warnings.
+- Added DOCX/PDF integrity evidence, page-render evidence, exact inventory, findings, unresolved human-review items, and SHA-256 checksums.
+- No native-language approval is claimed and no packaged manual was rebuilt by this audit.
+
 ### Changed
 
 - Organized manuals by topic, cloud platform, and language.

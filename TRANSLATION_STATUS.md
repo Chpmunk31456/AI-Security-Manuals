@@ -1,39 +1,25 @@
 # Translation Parity Status
 
-**Current status: FAIL — remediation required**
+**Current status: FAIL - remediation required**
 
-The repository's package-integrity audit passes: files open, PDFs contain searchable text, DOCX packages are readable, and local links resolve.
+## AI Risk Management pt-BR
 
-A stricter English–Spanish–Portuguese parity audit at candidate SHA `19af0d897962c1d0ef4f8f767590873eb18854ea` found 31 high-severity discrepancies.
+**Status: PASS WITH DOCUMENTED LIMITATIONS** for automated structure and package checks; native-language approval remains pending.
 
-## Brazilian Portuguese
+The condensed five-page package was replaced with a complete reconstruction from the English baseline at `5be029a5cbb156ff32e1f6032a677f96b8aaa933`. The reconstructed DOCX preserves 574 paragraphs, 99 headings, 42 tables, and 10 inline figures. Its searchable PDF contains 47 nonblank pages.
 
-The following Portuguese editions are materially shorter than their English baselines and cannot currently be represented as complete translations:
+Automated protected-token review still requires contextual disposition for `AI RMF`, `API`, and section-number tokens `26.4`, `26.7`, and `26.9`. Embedded figure labels inherited from the English source have not received native-language localization approval. No native Brazilian Portuguese approval is claimed.
 
-- AI Risk Management — 8.8% of English DOCX word count
-- Microsoft Azure AI Security — 5.2%
-- AWS AI Security — 5.4%
-- Google Cloud AI Security — 5.4%
-- IBM Cloud AI Security — 24.9%
-- Oracle Cloud AI Security — 24.6%
-- ISO/IEC 42001 — 8.1%
+See [`qa/ai-risk-management/PT_BR_RECONSTRUCTION_QA.md`](qa/ai-risk-management/PT_BR_RECONSTRUCTION_QA.md).
 
-These editions also lose substantial heading structure and protected technical tokens.
+## Remaining Brazilian Portuguese remediation
 
-The Kali Linux / AI Security / Digital Forensics Portuguese edition is structurally close to English but still requires protected-token and native-language review.
+ISO/IEC 42001, Microsoft Azure, AWS, Google Cloud, Oracle Cloud, and IBM Cloud remain incomplete condensed editions. Kali Linux remains pending protected-token and native-language review.
 
 ## Latin American Spanish
 
-All eight Spanish editions triggered protected-token differences against English. These findings require controlled review to distinguish actual omissions or mistranslations from benign translation differences.
+All eight Spanish editions remain pending controlled protected-token and native-language review.
 
 ## Publication rule
 
-Until remediation and exact-SHA review are complete:
-
-- do not describe the affected Portuguese files as full equivalents of the English manuals;
-- do not claim that Spanish or Portuguese editions are error-free;
-- retain the downloads only as review candidates;
-- rebuild affected DOCX/PDF packages after correction;
-- require automated parity, technical, native-language, accessibility, and page-by-page visual review before approval.
-
-See [`qa/full-multilingual-parity/FULL_MULTILINGUAL_CONTENT_PARITY_AUDIT.md`](qa/full-multilingual-parity/FULL_MULTILINGUAL_CONTENT_PARITY_AUDIT.md) for the controlled findings.
+Repository-wide status remains `FAIL`. Do not claim full multilingual parity until all high-severity findings are resolved or explicitly adjudicated and native-language, accessibility, technical, and page-level visual reviews are recorded at an exact commit SHA.
