@@ -72,8 +72,8 @@ The pt-BR edition retains the English authority's written-authorization requirem
 
 The local, committed, and remote blob hashes match for both publication binaries at package candidate `7f087bc5626e34a779c5e9001d0a7ae64bd20e69`. The committed bytes are the exact files validated locally; no alternate binary was used for validation.
 
-- Final repository integrity audit: local `PASS`; GitHub Actions pending exact final evidence head
-- Full multilingual content parity audit: local repository-wide `FAIL` with 36 findings (28 HIGH, 8 BLOCKER), as expected until Google Cloud, Oracle Cloud, IBM Cloud, Kali, and Spanish review units are completed
+- Final repository integrity audit: local `PASS`; GitHub Actions run 32 on exact evidence candidate `83896aecbb91b16ab23929d2d1a4ac98b54f9b9e`: `SUCCESS`
+- Full multilingual content parity audit: local repository-wide `FAIL` with 36 findings (28 HIGH, 8 BLOCKER); GitHub Actions run 11 on the same exact candidate: `FAILURE`, as expected until Google Cloud, Oracle Cloud, IBM Cloud, Kali, and Spanish review units are completed
 - AWS acceptance requires no package-readability, heading-loss, table-loss, or structural-loss finding on the exact candidate
 
 ## Unresolved limitations
