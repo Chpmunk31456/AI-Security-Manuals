@@ -62,9 +62,19 @@ Google Translate and Google Drive were used only for a machine-assisted first pa
 
 See [`qa/oracle-cloud/PT_BR_RECONSTRUCTION_QA.md`](qa/oracle-cloud/PT_BR_RECONSTRUCTION_QA.md).
 
+## IBM Cloud pt-BR
+
+**Status: PASS WITH DOCUMENTED LIMITATIONS** for automated structure, package, accessibility, and rendering checks; native-language approval remains pending.
+
+The condensed 817-word package was replaced with a complete reconstruction from the English authority. The reconstructed DOCX preserves 238 body paragraphs, 311 paragraphs including table cells, 25 headings, 3 tables, 2 inline figures, 2 embedded media files, 36 hyperlinks, 25 bookmarks, and the authoritative section order and table shapes. Its searchable PDF is fully rasterized for page-level review.
+
+Validated Portuguese cloud-security editions were used as controlled translation memory for shared paragraphs. IBM-specific content was translated through an explicit reviewed mapping. Protected IBM product names and official IBM URLs were preserved. Two embedded English-source figures retain English labels, and no native Brazilian Portuguese approval is claimed.
+
+See [`qa/ibm-cloud/PT_BR_RECONSTRUCTION_QA.md`](qa/ibm-cloud/PT_BR_RECONSTRUCTION_QA.md).
+
 ## Remaining Brazilian Portuguese remediation
 
-IBM Cloud remains an incomplete condensed edition. Kali Linux remains pending protected-token and native-language review.
+All seven previously condensed pt-BR editions have been reconstructed. Kali Linux remains pending protected-token and native-language review.
 
 ## Latin American Spanish
 

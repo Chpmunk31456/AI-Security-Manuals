@@ -55,3 +55,5 @@ All notable repository-level changes are documented here.
 ## Version 1.0 — July 2026
 
 - Published the initial AI Security Manuals collection in available English, neutral Latin American Spanish, and Brazilian Portuguese editions.
+
+- Reconstructed the complete IBM Cloud pt-BR manual from the English authority; added reproducible build logic, structural/PDF/accessibility QA, rendered-page evidence, and checksums. Native-language and professional approvals remain pending.

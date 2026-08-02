@@ -1,0 +1,2 @@
+fc5ad78e5d134182eba6b594a2010d487d48f3a7b1aa831ecfc04d3656963d47  manuals/cloud-ai-security/ibm-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_IBM_Cloud_pt-BR_v1.0.docx
+52d26d1b8c6ce734f94e5bbbc834e0733e85c24618a4cb672548d62f72558314  manuals/cloud-ai-security/ibm-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_IBM_Cloud_pt-BR_v1.0.pdf

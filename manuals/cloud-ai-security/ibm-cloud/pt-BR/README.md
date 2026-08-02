@@ -8,3 +8,5 @@ Edição em português do Brasil (`pt-BR`).
 Versão 1.0 produzida em julho de 2026. Verifique informações atuais em fontes oficiais antes do uso operacional.
 
 Criado e dirigido por **Alberto (Al) Leiva**. O ChatGPT apoiou pesquisa, organização, tradução e preparação sob direção do autor.
+
+Automated structure, package, accessibility, and rendering checks passed. Native Brazilian Portuguese, IBM Cloud security, legal/regulatory, accessibility, and professional prepress approvals remain pending.
