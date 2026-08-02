@@ -1,0 +1,35 @@
+name: Human review release gate
+
+on:
+  pull_request:
+    paths:
+      - 'qa/human-review/**'
+      - 'scripts/validate_human_review_matrix.py'
+      - '.github/workflows/human-review-release-gate.yml'
+  push:
+    branches:
+      - translation/reconstruct-full-ptbr-and-review-es419
+    paths:
+      - 'qa/human-review/**'
+      - 'scripts/validate_human_review_matrix.py'
+      - '.github/workflows/human-review-release-gate.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate-review-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate review matrix and evidence references
+        run: python scripts/validate_human_review_matrix.py
+      - name: Publish current blocked-gate summary
+        run: |
+          echo 'Automated checks do not substitute for human review.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'The matrix validator passes when the matrix is structurally valid, even while rows remain PENDING.' >> "$GITHUB_STEP_SUMMARY"
+          echo 'PR readiness and merge remain separate explicit decisions.' >> "$GITHUB_STEP_SUMMARY"
