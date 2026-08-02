@@ -48,13 +48,19 @@ def main() -> None:
         row["exact_sha"] for row in rows
         if row["status"] == "APPROVED" and row["exact_sha"]
     })
+    blockers = sum(1 for row in rows if row["status"] != "APPROVED")
+    publication_status = (
+        "BLOCKED PENDING HUMAN REVIEW"
+        if blockers
+        else "HUMAN REVIEW APPROVED; FINAL RELEASE CONTROLS REQUIRED"
+    )
 
     lines = [
         "# Human Review Status Dashboard",
         "",
-        "**Publication status: BLOCKED PENDING HUMAN REVIEW**",
+        f"**Publication status: {publication_status}**",
         "",
-        "This dashboard is generated from `REVIEW_MATRIX.csv`. It reports evidence state only; it does not create or imply approval.",
+        "This dashboard is generated from `REVIEW_MATRIX.csv`. It reports evidence state and does not independently verify reviewer qualifications or the substance of the human review.",
         "",
         "## Overall status",
         "",
@@ -80,7 +86,6 @@ def main() -> None:
             f"| {counts.get('APPROVED', 0)} | {counts.get('REJECTED', 0)} |"
         )
 
-    blockers = sum(1 for row in rows if row["status"] != "APPROVED")
     lines += [
         "",
         "## Release blockers",
@@ -97,10 +102,10 @@ def main() -> None:
         "- Master release issue: [#20](https://github.com/Chpmunk31456/AI-Security-Manuals/issues/20)",
         "- Draft publication PR: [#11](https://github.com/Chpmunk31456/AI-Security-Manuals/pull/11)",
         "- Evidence rules: `qa/human-review/README.md`",
-        "- Attestation template: `qa/human-review/REVIEW_ATTESTATION_TEMPLATE.md`",
+        "- Attestation: `qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md`",
         "- Review packet workflow: `.github/workflows/build-human-review-packets.yml`",
         "",
-        "Do not mark PR #11 ready or merge it until every required gate has attributable evidence at one frozen exact candidate SHA.",
+        "All approved gates must reference one frozen exact publication SHA. Administrative evidence commits after that SHA do not alter the reviewed publication files.",
     ]
 
     OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
