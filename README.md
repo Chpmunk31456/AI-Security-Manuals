@@ -2,6 +2,8 @@
 
 A free, practical, multilingual collection covering artificial intelligence security, governance, risk, compliance, cloud security, authorized cybersecurity testing, and digital forensics.
 
+> **Multilingual parity warning:** The 2026-08-01 audit found that seven Brazilian Portuguese packages are condensed summaries, not full translations. Do not rely on them as content-equivalent editions. See [the full audit](qa/FULL_MULTILINGUAL_CONTENT_PARITY_AUDIT.md).
+
 ## Author
 
 **Alberto (Al) Leiva**  

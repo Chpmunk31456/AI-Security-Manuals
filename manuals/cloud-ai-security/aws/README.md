@@ -1,5 +1,7 @@
 # Securing Enterprise AI on Amazon Web Services
 
+> **Audit warning:** The current pt-BR package is a condensed summary and does not match the English manual. See [the parity audit](../../../qa/FULL_MULTILINGUAL_CONTENT_PARITY_AUDIT.md).
+
 ## Available editions
 
 | Language | PDF | Microsoft Word |

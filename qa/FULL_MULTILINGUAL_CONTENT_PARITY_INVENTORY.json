@@ -1,0 +1,442 @@
+{
+  "baseline_sha": "be497599c055d3f611298d999c501a8d84e768d5",
+  "families": [
+    {
+      "family": "ai-risk-management",
+      "editions": {
+        "en": {
+          "docx": "manuals/ai-risk-management/en/AI_Risk_Management_Governance_and_Security_en_v1.0.docx",
+          "pdf": "manuals/ai-risk-management/en/AI_Risk_Management_Governance_and_Security_en_v1.0.pdf",
+          "docx_sha256": "1df626687d180eaef4cb1f935292d8b2a94636217fa4140b100ea93657605b09",
+          "pdf_sha256": "7034c99b7fe76c88d205c799d341d8f6b24fce21028f8539afaf5a1b588dc123",
+          "docx_metrics": {
+            "zip_integrity": "PASS",
+            "xml_integrity": "PASS",
+            "headings": [
+              {
+                "style": "Heading1",
+                "text": "Preface"
+              },
+              {
+                "style": "Heading2",
+                "text": "How to use this manual"
+              },
+              {
+                "style": "Heading1",
+                "text": "Table of Contents"
+              },
+              {
+                "style": "Heading1",
+                "text": "Chapter Guide"
+              },
+              {
+                "style": "Heading1",
+                "text": "1. AI Foundations and Trustworthy Use"
+              },
+              {
+                "style": "Heading2",
+                "text": "1.1 Trustworthy characteristics"
+              },
+              {
+                "style": "Heading1",
+                "text": "2. Governance, Standards, and Legal Landscape"
+              },
+              {
+                "style": "Heading2",
+                "text": "2.1 Legal and obligation register"
+              },
+              {
+                "style": "Heading1",
+                "text": "3. NIST AI RMF Core"
+              },
+              {
+                "style": "Heading1",
+                "text": "4. GOVERN: Culture, Accountability, and Policy"
+              },
+              {
+                "style": "Heading2",
+                "text": "4.1 Governance structure"
+              },
+              {
+                "style": "Heading1",
+                "text": "5. MAP: Context, People, and Impact"
+              },
+              {
+                "style": "Heading2",
+                "text": "5.1 Context record"
+              },
+              {
+                "style": "Heading1",
+                "text": "6. MEASURE: Testing and Risk Analysis"
+              },
+              {
+                "style": "Heading2",
+                "text": "6.1 Measurement plan"
+              },
+              {
+                "style": "Heading1",
+                "text": "7. MANAGE: Treatment, Deployment, and Improvement"
+              },
+              {
+                "style": "Heading2",
+                "text": "7.1 Deployment gate"
+              },
+              {
+                "style": "Heading1",
+                "text": "8. NIST Generative AI Profile"
+              },
+              {
+                "style": "Heading1",
+                "text": "9. ISO/IEC 42001 and ISO/IEC 23894"
+              },
+              {
+                "style": "Heading2",
+                "text": "9.1 Certification and copyright cautions"
+              },
+              {
+                "style": "Heading1",
+                "text": "10. AI Inventory, Use Cases, and Life Cycle"
+              },
+              {
+                "style": "Heading2",
+                "text": "10.1 Life-cycle controls"
+              },
+              {
+                "style": "Heading1",
+                "text": "11. Data Governance and Data Security"
+              },
+              {
+                "style": "Heading2",
+                "text": "11.1 Data control chain"
+              },
+              {
+                "style": "Heading1",
+                "text": "12. Model Governance and Model Risk"
+              },
+              {
+                "style": "Heading2",
+                "text": "12.1 Validation questions"
+              },
+              {
+                "style": "Heading1",
+                "text": "13. Foundation Models and Third Parties"
+              },
+              {
+                "style": "Heading2",
+                "text": "13.1 Concentration and value-chain risk"
+              },
+              {
+                "style": "Heading1",
+                "text": "14. AI Security Threat Modeling"
+              },
+              {
+                "style": "Heading2",
+                "text": "14.1 Threat-model method"
+              },
+              {
+                "style": "Heading1",
+                "text": "15. OWASP Top 10 for LLM Applications 2025"
+              },
+              {
+                "style": "Heading2",
+                "text": "15.1 How an analyst uses the list"
+              },
+              {
+                "style": "Heading1",
+                "text": "16. Agentic AI Security"
+              },
+              {
+                "style": "Heading1",
+                "text": "17. Retrieval-Augmented Generation Security"
+              },
+              {
+                "style": "Heading2",
+                "text": "17.1 RAG controls"
+              },
+              {
+                "style": "Heading1",
+                "text": "18. Prompt, Interface, and Output Security"
+              },
+              {
+                "style": "Heading2",
+                "text": "18.1 Output handling examples"
+              },
+              {
+                "style": "Heading1",
+                "text": "19. Identity, Tools, APIs, and MCP"
+              },
+              {
+                "style": "Heading2",
+                "text": "19.1 MCP security"
+              },
+              {
+                "style": "Heading1",
+                "text": "20. Privacy, Intellectual Property, and Records"
+              },
+              {
+                "style": "Heading2",
+                "text": "20.1 Privacy and records assessment"
+              },
+              {
+                "style": "Heading2",
+                "text": "20.2 Intellectual property"
+              },
+              {
+                "style": "Heading1",
+                "text": "21. Fairness, Transparency, Explainability, and Human Oversight"
+              },
+              {
+                "style": "Heading2",
+                "text": "21.1 Avoid common mistakes"
+              },
+              {
+                "style": "Heading1",
+                "text": "22. Evaluation, Red Teaming, and Acceptance"
+              },
+              {
+                "style": "Heading2",
+                "text": "22.1 Red-team rules of engagement"
+              },
+              {
+                "style": "Heading1",
+                "text": "23. Monitoring, Incidents, Change, and Retirement"
+              },
+              {
+                "style": "Heading2",
+                "text": "23.1 AI incident response"
+              },
+              {
+                "style": "Heading1",
+                "text": "24. Assurance, Evidence, Testing, and Metrics"
+              },
+              {
+                "style": "Heading2",
+                "text": "24.1 Control test method"
+              },
+              {
+                "style": "Heading1",
+                "text": "25. CSA AI Controls Matrix v1.1"
+              },
+              {
+                "style": "Heading2",
+                "text": "25.1 Practical use"
+              },
+              {
+                "style": "Heading1",
+                "text": "26. Open-Source AI Assurance and Security Tools"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.1 Garak"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.2 Promptfoo"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.3 Giskard"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.4 PyRIT"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.5 Inspect AI"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.6 Adversarial Robustness Toolbox"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.7 LLM Guard"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.8 Presidio"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.9 Guardrails AI"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.10 OpenAI Evals"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.11 Langfuse"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.12 MLflow"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.13 Evidently"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.14 Deepchecks"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.15 ModelScan"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.16 Gitleaks"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.17 Trivy"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.18 MITRE ATLAS"
+              },
+              {
+                "style": "Heading1",
+                "text": "27. Managerâ€™s AI Governance Playbook"
+              },
+              {
+                "style": "Heading2",
+                "text": "27.1 Operating rhythm"
+              },
+              {
+                "style": "Heading2",
+                "text": "27.2 Questions leaders must answer"
+              },
+              {
+                "style": "Heading1",
+                "text": "28. Junior AI Risk and Security Analyst Career Guide"
+              },
+              {
+                "style": "Heading2",
+                "text": "28.1 Entry-level roles"
+              },
+              {
+                "style": "Heading2",
+                "text": "28.2 Daily work"
+              },
+              {
+                "style": "Heading2",
+                "text": "28.3 Resume evidence"
+              },
+              {
+                "style": "Heading1",
+                "text": "29. Fictional Laboratory, Thirty-Day Plan, and Interviews"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.1 Portfolio lab"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.2 Thirty-day plan"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.3 What is the NIST AI RMF?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.4 Model risk versus system risk?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.5 What is prompt injection?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.6 How do you evaluate an LLM?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.7 What is RAG?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.8 Why is human oversight difficult?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.9 What is an AI inventory?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.10 How do tools prove compliance?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.11 How do you report a finding?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.12 What makes a good junior analyst?"
+              },
+              {
+                "style": "Heading1",
+                "text": "30. Templates, Glossary, Index, and References"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.1 AI use-case inventory"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.2 AI impact and risk assessment"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.3 AI evaluation workpaper"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.4 AI incident and change record"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.5 Glossary"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.6 Subject index"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.7 Official references"
+              }
+            ],
+            "tables": 42,
+            "table_rows": 338,
+            "images": 10,
+            "links": [
+              "https://github.com/NVIDIA/garak",
+              "https://www.promptfoo.dev/",
+              "https://github.com/Giskard-AI/giskard",
+              "https://github.com/Azure/PyRIT",
+              "https://inspect.aisi.org.uk/",
+              "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+              "https://github.com/protectai/llm-guard",
+              "https://microsoft.github.io/presidio/",
+              "https://www.guardrailsai.com/",
+              "https://github.com/openai/evals",
+              "https://langfuse.com/",
+              "https://mlflow.org/",
+              "https://www.evidentlyai.com/",
+              "https://github.com/deepchecks/deepchecks",
+              "https://github.com/protectai/modelscan",
+              "https://github.com/gitleaks/gitleaks",
+              "https://trivy.dev/",
+              "https://atlas.mitre.org/",
+              "https://www.nist.gov/itl/ai-risk-management-framework",
+              "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+              "https://airc.nist.gov/airmf-resources/airmf/",
+              "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+              "https://csrc.nist.gov/pubs/ai/100/2/e2023/final",
+              "https://www.iso.org/standard/81230.html",
+              "https://www.iso.org/standard/77304.html",
+ ×Ý<÷{h‘éì¶»§q«^wÓX[X[Ô˜]XÛ×ÔÑÒPWÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚ\ÛËZYXËMŒKÜP”‹Ô‘PQQK›Y‹Bˆ\™Ù]Žˆ’TÓ×ÒQP×ÍŒWÓX[X[Ô˜]XÛ×ÔÑÒPWÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚ\ÛËZYXËMŒKÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹‹Ë‹‹ÜXKÑ•SÓUSSS‘ÕPSÐÓÓ•S•ÔT’UWÐUQU›Y‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚ\ÛËZYXËMŒKÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹Ù[‹ÒTÓ×ÒQP×ÍŒWÔ˜XÝXØ[ÐRST×ÓX[X[Ù[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚ\ÛËZYXËMŒKÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹Ù[‹ÒTÓ×ÒQP×ÍŒWÔ˜XÝXØ[ÐRST×ÓX[X[Ù[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚ\ÛËZYXËMŒKÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹Ù\ËMNKÒTÓ×ÒQP×ÍŒWÔÚ\Ý[XWÙWÑÙ\Ý[Û—ÙWÒPWÙ\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚ\ÛËZYXËMŒKÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹Ù\ËMNKÒTÓ×ÒQP×ÍŒWÔÚ\Ý[XWÙWÑÙ\Ý[Û—ÙWÒPWÙ\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚ\ÛËZYXËMŒKÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹ÜP”‹ÒTÓ×ÒQP×ÍŒWÓX[X[Ô˜]XÛ×ÔÑÒPWÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚ\ÛËZYXËMŒKÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹ÜP”‹ÒTÓ×ÒQP×ÍŒWÓX[X[Ô˜]XÛ×ÔÑÒPWÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚ\ÛËZYXËMŒKÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹‹Ë‹‹Ô‘PQQK›Y‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÙ[‹Ô‘PQQK›Y‹Bˆ\™Ù]Žˆ’Ø[WÓ[^ÐRWÔÙXÝ\š]WÑ›Ü™[œÚXÜ×Ù[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÙ[‹Ô‘PQQK›Y‹Bˆ\™Ù]Žˆ’Ø[WÓ[^ÐRWÔÙXÝ\š]WÑ›Ü™[œÚXÜ×Ù[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÙ\ËMNKÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ’Ø[WÓ[^ÔÙYÝ\šYYÒPWÑ›Ü™[œÙWÙ\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÙ\ËMNKÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ’Ø[WÓ[^ÔÙYÝ\šYYÒPWÑ›Ü™[œÙWÙ\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÜP”‹Ô‘PQQK›Y‹Bˆ\™Ù]Žˆ’Ø[WÓ[^ÔÙYÝ\˜[˜ØWÒPWÑ›Ü™[œÙWÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÜP”‹Ô‘PQQK›Y‹Bˆ\™Ù]Žˆ’Ø[WÓ[^ÔÙYÝ\˜[˜ØWÒPWÑ›Ü™[œÙWÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹Ù[‹ÒØ[WÓ[^ÐRWÔÙXÝ\š]WÑ›Ü™[œÚXÜ×Ù[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹Ù[‹ÒØ[WÓ[^ÐRWÔÙXÝ\š]WÑ›Ü™[œÚXÜ×Ù[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹Ù\ËMNKÒØ[WÓ[^ÔÙYÝ\šYYÒPWÑ›Ü™[œÙWÙ\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹Ù\ËMNKÒØ[WÓ[^ÔÙYÝ\šYYÒPWÑ›Ü™[œÙWÙ\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹ÜP”‹ÒØ[WÓ[^ÔÙYÝ\˜[˜ØWÒPWÑ›Ü™[œÙWÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹ÜP”‹ÒØ[WÓ[^ÔÙYÝ\˜[˜ØWÒPWÑ›Ü™[œÙWÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÔ‘PQQK›Y‹Bˆ\™Ù]Žˆ‹‹‹Ë‹‹Ô‘PQQK›Y‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]ŽˆœXKÑ•SÓUSSS‘ÕPSÐÓÓ•S•ÔT’UWÐUQU›Y‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØZK\š\ÚË[X[˜YÙ[Y[Ù[‹ÐRWÔš\Ú×ÓX[˜YÙ[Y[ÑÛÝ™\›˜[˜ÙWØ[™ÔÙXÝ\š]WÙ[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØZK\š\ÚË[X[˜YÙ[Y[Ù[‹ÐRWÔš\Ú×ÓX[˜YÙ[Y[ÑÛÝ™\›˜[˜ÙWØ[™ÔÙXÝ\š]WÙ[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØZK\š\ÚË[X[˜YÙ[Y[Ù\ËMNKÑÙ\Ý[Û—ÙWÔšY\ÙÛÜ×ÑÛØ™\›˜[ž˜WÞWÔÙYÝ\šYYÙWÒPWÙ\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØZK\š\ÚË[X[˜YÙ[Y[Ù\ËMNKÑÙ\Ý[Û—ÙWÔšY\ÙÛÜ×ÑÛØ™\›˜[ž˜WÞWÔÙYÝ\šYYÙWÒPWÙ\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØZK\š\ÚË[X[˜YÙ[Y[ÜP”‹ÑÙ\Ý[×ÙWÔš\ØÛÜ×ÑÛÝ™\›˜[˜ØWÙWÔÙYÝ\˜[˜ØWÙWÒPWÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØZK\š\ÚË[X[˜YÙ[Y[ÜP”‹ÑÙ\Ý[×ÙWÔš\ØÛÜ×ÑÛÝ™\›˜[˜ØWÙWÔÙYÝ\˜[˜ØWÙWÒPWÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚ\ÛËZYXËMŒKÙ[‹ÒTÓ×ÒQP×ÍŒWÔ˜XÝXØ[ÐRST×ÓX[X[Ù[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚ\ÛËZYXËMŒKÙ[‹ÒTÓ×ÒQP×ÍŒWÔ˜XÝXØ[ÐRST×ÓX[X[Ù[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚ\ÛËZYXËMŒKÙ\ËMNKÒTÓ×ÒQP×ÍŒWÔÚ\Ý[XWÙWÑÙ\Ý[Û—ÙWÒPWÙ\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚ\ÛËZYXËMŒKÙ\ËMNKÒTÓ×ÒQP×ÍŒWÔÚ\Ý[XWÙWÑÙ\Ý[Û—ÙWÒPWÙ\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚ\ÛËZYXËMŒKÜP”‹ÒTÓ×ÒQP×ÍŒWÓX[X[Ô˜]XÛ×ÔÑÒPWÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚ\ÛËZYXËMŒKÜP”‹ÒTÓ×ÒQP×ÍŒWÓX[X[Ô˜]XÛ×ÔÑÒPWÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÙ[‹ÒØ[WÓ[^ÐRWÔÙXÝ\š]WÑ›Ü™[œÚXÜ×Ù[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÙ[‹ÒØ[WÓ[^ÐRWÔÙXÝ\š]WÑ›Ü™[œÚXÜ×Ù[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÙ\ËMNKÒØ[WÓ[^ÔÙYÝ\šYYÒPWÑ›Ü™[œÙWÙ\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÙ\ËMNKÒØ[WÓ[^ÔÙYÝ\šYYÒPWÑ›Ü™[œÙWÙ\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÜP”‹ÒØ[WÓ[^ÔÙYÝ\˜[˜ØWÒPWÑ›Ü™[œÙWÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËÚØ[K[[^XZK\ÙXÝ\š]KY›Ü™[œÚXÜËÜP”‹ÒØ[WÓ[^ÔÙYÝ\˜[˜ØWÒPWÑ›Ü™[œÙWÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛZXÜ›ÜÛÙX^\™KÙ[‹ÔÙXÝ\š[™×Ñ[\œš\ÙWÐRWÛÛ—ÓZXÜ›ÜÛÙÐ^\™WÙ[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛZXÜ›ÜÛÙX^\™KÙ[‹ÔÙXÝ\š[™×Ñ[\œš\ÙWÐRWÛÛ—ÓZXÜ›ÜÛÙÐ^\™WÙ[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛZXÜ›ÜÛÙX^\™KÙ\ËMNKÔ›ÝXØÚ[Û—ÙWÒPWÑ[\™\Ø\šX[Ù[—ÓZXÜ›ÜÛÙÐ^\™WÙ\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛZXÜ›ÜÛÙX^\™KÙ\ËMNKÔ›ÝXØÚ[Û—ÙWÒPWÑ[\™\Ø\šX[Ù[—ÓZXÜ›ÜÛÙÐ^\™WÙ\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛZXÜ›ÜÛÙX^\™KÜP”‹Ô›ÝXØ[×ÙWÒPWÑ[\™\Ø\šX[Û›×ÓZXÜ›ÜÛÙÐ^\™WÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛZXÜ›ÜÛÙX^\™KÜP”‹Ô›ÝXØ[×ÙWÒPWÑ[\™\Ø\šX[Û›×ÓZXÜ›ÜÛÙÐ^\™WÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KØ]ÜËÙ[‹ÔÙXÝ\š[™×Ñ[\œš\ÙWÐRWÛÛ—ÐUÔ×Ù[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KØ]ÜËÙ[‹ÔÙXÝ\š[™×Ñ[\œš\ÙWÐRWÛÛ—ÐUÔ×Ù[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KØ]ÜËÙ\ËMNKÔ›ÝXØÚ[Û—ÙWÒPWÑ[\™\Ø\šX[Ù[—ÐUÔ×Ù\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KØ]ÜËÙ\ËMNKÔ›ÝXØÚ[Û—ÙWÒPWÑ[\™\Ø\šX[Ù[—ÐUÔ×Ù\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KØ]ÜËÜP”‹Ô›ÝXØ[×ÙWÒPWÑ[\™\Ø\šX[Û˜WÐUÔ×ÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KØ]ÜËÜP”‹Ô›ÝXØ[×ÙWÒPWÑ[\™\Ø\šX[Û˜WÐUÔ×ÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÙÛÛÙÛKXÛÝYÙ[‹ÔÙXÝ\š[™×Ñ[\œš\ÙWÐRWÛÛ—ÑÛÛÙÛWÐÛÝYÙ[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÙÛÛÙÛKXÛÝYÙ[‹ÔÙXÝ\š[™×Ñ[\œš\ÙWÐRWÛÛ—ÑÛÛÙÛWÐÛÝYÙ[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÙÛÛÙÛKXÛÝYÙ\ËMNKÔ›ÝXØÚ[Û—ÙWÒPWÑ[\™\Ø\šX[Ù[—ÑÛÛÙÛWÐÛÝYÙ\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÙÛÛÙÛKXÛÝYÙ\ËMNKÔ›ÝXØÚ[Û—ÙWÒPWÑ[\™\Ø\šX[Ù[—ÑÛÛÙÛWÐÛÝYÙ\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÙÛÛÙÛKXÛÝYÜP”‹Ô›ÝXØ[×ÙWÒPWÑ[\™\Ø\šX[Û›×ÑÛÛÙÛWÐÛÝYÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÙÛÛÙÛKXÛÝYÜP”‹Ô›ÝXØ[×ÙWÒPWÑ[\™\Ø\šX[Û›×ÑÛÛÙÛWÐÛÝYÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛÜ˜XÛKXÛÝYÙ[‹ÓÜ˜XÛWÐÛÝYÐRWÔÙXÝ\š]WÓX[X[Ù[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛÜ˜XÛKXÛÝYÙ[‹ÓÜ˜XÛWÐÛÝYÐRWÔÙXÝ\š]WÓX[X[Ù[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛÜ˜XÛKXÛÝYÙ\ËMNKÓX[X[ÙWÔÙYÝ\šYYÙWÒPWÙ[—ÓÜ˜XÛWÐÛÝYÙ\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛÜ˜XÛKXÛÝYÙ\ËMNKÓX[X[ÙWÔÙYÝ\šYYÙWÒPWÙ[—ÓÜ˜XÛWÐÛÝYÙ\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛÜ˜XÛKXÛÝYÜP”‹ÓX[X[ÙWÔÙYÝ\˜[˜ØWÙWÒPWÛ˜WÓÜ˜XÛWÐÛÝYÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÛÜ˜XÛKXÛÝYÜP”‹ÓX[X[ÙWÔÙYÝ\˜[˜ØWÙWÒPWÛ˜WÓÜ˜XÛWÐÛÝYÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÚX›KXÛÝYÙ[‹ÒP“WÐÛÝYÐRWÔÙXÝ\š]WÓX[X[Ù[—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÚX›KXÛÝYÙ[‹ÒP“WÐÛÝYÐRWÔÙXÝ\š]WÓX[X[Ù[—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÚX›KXÛÝYÙ\ËMNKÓX[X[ÙWÔÙYÝ\šYYÙWÒPWÙ[—ÒP“WÐÛÝYÙ\ËMNWÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÚX›KXÛÝYÙ\ËMNKÓX[X[ÙWÔÙYÝ\šYYÙWÒPWÙ[—ÒP“WÐÛÝYÙ\ËMNWÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÚX›KXÛÝYÜP”‹ÓX[X[ÙWÔÙYÝ\˜[˜ØWÙWÒPWÛ˜WÒP“WÐÛÝYÜP”—ÝŒKŒœˆ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ›X[X[ËØÛÝYXZK\ÙXÝ\š]KÚX›KXÛÝYÜP”‹ÓX[X[ÙWÔÙYÝ\˜[˜ØWÙWÒPWÛ˜WÒP“WÐÛÝYÜP”—ÝŒKŒ™ØÞ‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]ŽˆPÐÑTÔÒP’SUK›Y‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]ŽˆÓÓ•’P•US‘Ë›Y‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]ŽˆÒS‘ÑSÑË›Y‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆKBˆÃBˆœÛÝ\˜ÙHŽˆ”‘PQQK›Y‹Bˆ\™Ù]Žˆ“PÑS”ÑH‹BˆšÚ[™Žˆ›ØØ[‹Bˆ™^\ÝÈŽˆYCBˆCBˆKBˆœÝ[[X\žHŽˆÃBˆ™˜[Z[WØÛÝ[ŽˆBˆ™Y][Û—ØÛÝ[ŽˆBˆœXÚØYÙWÙš[WØÛÝ[ŽˆBˆ™š[™[™×ØÛÝ[ŽˆBˆCBŸCB
