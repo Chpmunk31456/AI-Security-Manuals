@@ -47,6 +47,15 @@ Every manual is available in searchable PDF and editable DOCX formats, for a tot
 
 The complete catalog and direct PDF/DOCX links are available from the repository root README.
 
+## Archival publication and DOI
+
+The multilingual Version 1.0 collection is permanently archived in Zenodo.
+
+- All-versions DOI: [10.5281/zenodo.21764043](https://doi.org/10.5281/zenodo.21764043)
+- Version 1.0 DOI: [10.5281/zenodo.21764044](https://doi.org/10.5281/zenodo.21764044)
+
+Use the all-versions DOI to reference the evolving collection and the Version 1.0 DOI to cite the exact files published on August 2, 2026.
+
 ## License and use
 
 Original educational content is released under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License unless otherwise stated.
