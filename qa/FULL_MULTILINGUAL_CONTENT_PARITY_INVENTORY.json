@@ -1,0 +1,1184 @@
+{
+  "baseline_sha": "be497599c055d3f611298d999c501a8d84e768d5",
+  "families": [
+    {
+      "family": "ai-risk-management",
+      "editions": {
+        "en": {
+          "docx": "manuals/ai-risk-management/en/AI_Risk_Management_Governance_and_Security_en_v1.0.docx",
+          "pdf": "manuals/ai-risk-management/en/AI_Risk_Management_Governance_and_Security_en_v1.0.pdf",
+          "docx_sha256": "1df626687d180eaef4cb1f935292d8b2a94636217fa4140b100ea93657605b09",
+          "pdf_sha256": "7034c99b7fe76c88d205c799d341d8f6b24fce21028f8539afaf5a1b588dc123",
+          "docx_metrics": {
+            "zip_integrity": "PASS",
+            "xml_integrity": "PASS",
+            "headings": [
+              {
+                "style": "Heading1",
+                "text": "Preface"
+              },
+              {
+                "style": "Heading2",
+                "text": "How to use this manual"
+              },
+              {
+                "style": "Heading1",
+                "text": "Table of Contents"
+              },
+              {
+                "style": "Heading1",
+                "text": "Chapter Guide"
+              },
+              {
+                "style": "Heading1",
+                "text": "1. AI Foundations and Trustworthy Use"
+              },
+              {
+                "style": "Heading2",
+                "text": "1.1 Trustworthy characteristics"
+              },
+              {
+                "style": "Heading1",
+                "text": "2. Governance, Standards, and Legal Landscape"
+              },
+              {
+                "style": "Heading2",
+                "text": "2.1 Legal and obligation register"
+              },
+              {
+                "style": "Heading1",
+                "text": "3. NIST AI RMF Core"
+              },
+              {
+                "style": "Heading1",
+                "text": "4. GOVERN: Culture, Accountability, and Policy"
+              },
+              {
+                "style": "Heading2",
+                "text": "4.1 Governance structure"
+              },
+              {
+                "style": "Heading1",
+                "text": "5. MAP: Context, People, and Impact"
+              },
+              {
+                "style": "Heading2",
+                "text": "5.1 Context record"
+              },
+              {
+                "style": "Heading1",
+                "text": "6. MEASURE: Testing and Risk Analysis"
+              },
+              {
+                "style": "Heading2",
+                "text": "6.1 Measurement plan"
+              },
+              {
+                "style": "Heading1",
+                "text": "7. MANAGE: Treatment, Deployment, and Improvement"
+              },
+              {
+                "style": "Heading2",
+                "text": "7.1 Deployment gate"
+              },
+              {
+                "style": "Heading1",
+                "text": "8. NIST Generative AI Profile"
+              },
+              {
+                "style": "Heading1",
+                "text": "9. ISO/IEC 42001 and ISO/IEC 23894"
+              },
+              {
+                "style": "Heading2",
+                "text": "9.1 Certification and copyright cautions"
+              },
+              {
+                "style": "Heading1",
+                "text": "10. AI Inventory, Use Cases, and Life Cycle"
+              },
+              {
+                "style": "Heading2",
+                "text": "10.1 Life-cycle controls"
+              },
+              {
+                "style": "Heading1",
+                "text": "11. Data Governance and Data Security"
+              },
+              {
+                "style": "Heading2",
+                "text": "11.1 Data control chain"
+              },
+              {
+                "style": "Heading1",
+                "text": "12. Model Governance and Model Risk"
+              },
+              {
+                "style": "Heading2",
+                "text": "12.1 Validation questions"
+              },
+              {
+                "style": "Heading1",
+                "text": "13. Foundation Models and Third Parties"
+              },
+              {
+                "style": "Heading2",
+                "text": "13.1 Concentration and value-chain risk"
+              },
+              {
+                "style": "Heading1",
+                "text": "14. AI Security Threat Modeling"
+              },
+              {
+                "style": "Heading2",
+                "text": "14.1 Threat-model method"
+              },
+              {
+                "style": "Heading1",
+                "text": "15. OWASP Top 10 for LLM Applications 2025"
+              },
+              {
+                "style": "Heading2",
+                "text": "15.1 How an analyst uses the list"
+              },
+              {
+                "style": "Heading1",
+                "text": "16. Agentic AI Security"
+              },
+              {
+                "style": "Heading1",
+                "text": "17. Retrieval-Augmented Generation Security"
+              },
+              {
+                "style": "Heading2",
+                "text": "17.1 RAG controls"
+              },
+              {
+                "style": "Heading1",
+                "text": "18. Prompt, Interface, and Output Security"
+              },
+              {
+                "style": "Heading2",
+                "text": "18.1 Output handling examples"
+              },
+              {
+                "style": "Heading1",
+                "text": "19. Identity, Tools, APIs, and MCP"
+              },
+              {
+                "style": "Heading2",
+                "text": "19.1 MCP security"
+              },
+              {
+                "style": "Heading1",
+                "text": "20. Privacy, Intellectual Property, and Records"
+              },
+              {
+                "style": "Heading2",
+                "text": "20.1 Privacy and records assessment"
+              },
+              {
+                "style": "Heading2",
+                "text": "20.2 Intellectual property"
+              },
+              {
+                "style": "Heading1",
+                "text": "21. Fairness, Transparency, Explainability, and Human Oversight"
+              },
+              {
+                "style": "Heading2",
+                "text": "21.1 Avoid common mistakes"
+              },
+              {
+                "style": "Heading1",
+                "text": "22. Evaluation, Red Teaming, and Acceptance"
+              },
+              {
+                "style": "Heading2",
+                "text": "22.1 Red-team rules of engagement"
+              },
+              {
+                "style": "Heading1",
+                "text": "23. Monitoring, Incidents, Change, and Retirement"
+              },
+              {
+                "style": "Heading2",
+                "text": "23.1 AI incident response"
+              },
+              {
+                "style": "Heading1",
+                "text": "24. Assurance, Evidence, Testing, and Metrics"
+              },
+              {
+                "style": "Heading2",
+                "text": "24.1 Control test method"
+              },
+              {
+                "style": "Heading1",
+                "text": "25. CSA AI Controls Matrix v1.1"
+              },
+              {
+                "style": "Heading2",
+                "text": "25.1 Practical use"
+              },
+              {
+                "style": "Heading1",
+                "text": "26. Open-Source AI Assurance and Security Tools"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.1 Garak"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.2 Promptfoo"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.3 Giskard"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.4 PyRIT"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.5 Inspect AI"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.6 Adversarial Robustness Toolbox"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.7 LLM Guard"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.8 Presidio"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.9 Guardrails AI"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.10 OpenAI Evals"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.11 Langfuse"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.12 MLflow"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.13 Evidently"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.14 Deepchecks"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.15 ModelScan"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.16 Gitleaks"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.17 Trivy"
+              },
+              {
+                "style": "Heading2",
+                "text": "26.18 MITRE ATLAS"
+              },
+              {
+                "style": "Heading1",
+                "text": "27. Manager’s AI Governance Playbook"
+              },
+              {
+                "style": "Heading2",
+                "text": "27.1 Operating rhythm"
+              },
+              {
+                "style": "Heading2",
+                "text": "27.2 Questions leaders must answer"
+              },
+              {
+                "style": "Heading1",
+                "text": "28. Junior AI Risk and Security Analyst Career Guide"
+              },
+              {
+                "style": "Heading2",
+                "text": "28.1 Entry-level roles"
+              },
+              {
+                "style": "Heading2",
+                "text": "28.2 Daily work"
+              },
+              {
+                "style": "Heading2",
+                "text": "28.3 Resume evidence"
+              },
+              {
+                "style": "Heading1",
+                "text": "29. Fictional Laboratory, Thirty-Day Plan, and Interviews"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.1 Portfolio lab"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.2 Thirty-day plan"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.3 What is the NIST AI RMF?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.4 Model risk versus system risk?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.5 What is prompt injection?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.6 How do you evaluate an LLM?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.7 What is RAG?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.8 Why is human oversight difficult?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.9 What is an AI inventory?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.10 How do tools prove compliance?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.11 How do you report a finding?"
+              },
+              {
+                "style": "Heading2",
+                "text": "29.12 What makes a good junior analyst?"
+              },
+              {
+                "style": "Heading1",
+                "text": "30. Templates, Glossary, Index, and References"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.1 AI use-case inventory"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.2 AI impact and risk assessment"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.3 AI evaluation workpaper"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.4 AI incident and change record"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.5 Glossary"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.6 Subject index"
+              },
+              {
+                "style": "Heading2",
+                "text": "30.7 Official references"
+              }
+            ],
+            "tables": 42,
+            "table_rows": 338,
+            "images": 10,
+            "links": [
+              "https://github.com/NVIDIA/garak",
+              "https://www.promptfoo.dev/",
+              "https://github.com/Giskard-AI/giskard",
+              "https://github.com/Azure/PyRIT",
+              "https://inspect.aisi.org.uk/",
+              "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+              "https://github.com/protectai/llm-guard",
+              "https://microsoft.github.io/presidio/",
+              "https://www.guardrailsai.com/",
+              "https://github.com/openai/evals",
+              "https://langfuse.com/",
+              "https://mlflow.org/",
+              "https://www.evidentlyai.com/",
+              "https://github.com/deepchecks/deepchecks",
+              "https://github.com/protectai/modelscan",
+              "https://github.com/gitleaks/gitleaks",
+              "https://trivy.dev/",
+              "https://atlas.mitre.org/",
+              "https://www.nist.gov/itl/ai-risk-management-framework",
+              "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+              "https://airc.nist.gov/airmf-resources/airmf/",
+              "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+              "https://csrc.nist.gov/pubs/ai/100/2/e2023/final",
+              "https://www.iso.org/standard/81230.html",
+              "https://www.iso.org/standard/77304.html",
+              "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+              "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+              "https://genai.owasp.org/llm-top-10/",
+              "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+              "https://genai.owasp.org/",
+              "https://atlas.mitre.org/",
+              "https://cloudsecurityalliance.org/research/publications",
+              "https://cloudsecurityalliance.org/star/ai",
+              "https://oecd.ai/en/ai-principles",
+              "https://www.unesco.org/en/artificial-intelligence/recommendation-ethics",
+              "https://www.cisa.gov/topics/cybersecurity-best-practices/artificial-intelligence",
+              "https://inspect.aisi.org.uk/"
+            ],
+            "metadata": {
+              "title": "AI Risk Management, Governance, and Security Practical Manual",
+              "creator": "Alberto (Al) Leiva",
+              "description": "generated by python-docx"
+            },
+            "word_count": 9079,
+            "character_count": 68966
+          },
+          "pdf_metrics": {
+            "readable": "PASS",
+            "searchable_text": "PASS",
+            "blank_pages": [],
+            "page_word_counts": [
+              61,
+              265,
+              222,
+              210,
+              230,
+              13,
+              236,
+              223,
+              230,
+              148,
+              192,
+              211,
+              226,
+              186,
+              218,
+              170,
+              192,
+              192,
+              173,
+              186,
+              200,
+              381,
+              200,
+              145,
+              191,
+              244,
+              209,
+              196,
+              179,
+              213,
+              248,
+              210,
+              365,
+              321,
+              313,
+              307,
+              147,
+              290,
+              165,
+              106,
+              328,
+              292,
+              240,
+              332,
+              143
+            ],
+            "metadata": {
+              "/Title": "AI Risk Management, Governance, and Security Practical Manual",
+              "/Author": "Alberto (Al) Leiva",
+              "/Subject": "NIST AI RMF, ISO 42001, AI governance, GenAI and agentic security, assurance, tools, and junior analyst preparation",
+              "/Creator": "Microsoft® Word LTSC",
+              "/CreationDate": "D:20260714165305-05'00'",
+              "/ModDate": "D:20260714165305-05'00'",
+              "/Producer": "Microsoft® Word LTSC"
+            },
+            "links": [
+              "https://github.com/NVIDIA/garak",
+              "https://www.promptfoo.dev/",
+              "https://github.com/Giskard-AI/giskard",
+              "https://github.com/Azure/PyRIT",
+              "https://inspect.aisi.org.uk/",
+              "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+              "https://github.com/Trusted-AI/adversarial-robustness-toolbox",
+              "https://github.com/protectai/llm-guard",
+              "https://microsoft.github.io/presidio/",
+              "https://www.guardrailsai.com/",
+              "https://github.com/openai/evals",
+              "https://langfuse.com/",
+              "https://mlflow.org/",
+              "https://www.evidentlyai.com/",
+              "https://github.com/deepchecks/deepchecks",
+              "https://github.com/protectai/modelscan",
+              "https://github.com/gitleaks/gitleaks",
+              "https://trivy.dev/",
+              "https://atlas.mitre.org/",
+              "https://www.nist.gov/itl/ai-risk-management-framework",
+              "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.100-1.pdf",
+              "https://airc.nist.gov/airmf-resources/airmf/",
+              "https://nvlpubs.nist.gov/nistpubs/ai/NIST.AI.600-1.pdf",
+              "https://csrc.nist.gov/pubs/ai/100/2/e2023/final",
+              "https://www.iso.org/standard/81230.html",
+              "https://www.iso.org/standard/77304.html",
+              "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai",
+              "https://ai-act-service-desk.ec.europa.eu/en/ai-act/timeline/timeline-implementation-eu-ai-act",
+              "https://genai.owasp.org/llm-top-10/",
+              "https://genai.owasp.org/resource/owasp-top-10-for-agentic-applications-for-2026/",
+              "https://genai.owasp.org/",
+              "https://atlas.mitre.org/",
+              "https://cloudsecurityalliance.org/research/publications",
+              "https://cloudsecurityalliance.org/star/ai",
+              "https://oecd.ai/en/ai-principles",
+              "https://www.unesco.org/en/artificial-intelligence/rec…166316 tokens truncated…s-419/README.md",
+      "target": "Manual_de_Seguridad_de_IA_en_Oracle_Cloud_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/pt-BR/README.md",
+      "target": "Manual_de_Seguranca_de_IA_na_Oracle_Cloud_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/pt-BR/README.md",
+      "target": "Manual_de_Seguranca_de_IA_na_Oracle_Cloud_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/README.md",
+      "target": "../../../qa/FULL_MULTILINGUAL_CONTENT_PARITY_AUDIT.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/README.md",
+      "target": "./en/Oracle_Cloud_AI_Security_Manual_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/README.md",
+      "target": "./en/Oracle_Cloud_AI_Security_Manual_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/README.md",
+      "target": "./es-419/Manual_de_Seguridad_de_IA_en_Oracle_Cloud_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/README.md",
+      "target": "./es-419/Manual_de_Seguridad_de_IA_en_Oracle_Cloud_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/README.md",
+      "target": "./pt-BR/Manual_de_Seguranca_de_IA_na_Oracle_Cloud_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/README.md",
+      "target": "./pt-BR/Manual_de_Seguranca_de_IA_na_Oracle_Cloud_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/README.md",
+      "target": "../README.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/oracle-cloud/README.md",
+      "target": "../../../README.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/README.md",
+      "target": "./microsoft-azure/",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/README.md",
+      "target": "./aws/",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/README.md",
+      "target": "./google-cloud/",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/README.md",
+      "target": "./oracle-cloud/",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/README.md",
+      "target": "./ibm-cloud/",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/cloud-ai-security/README.md",
+      "target": "../../README.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/en/README.md",
+      "target": "ISO_IEC_42001_Practical_AIMS_Manual_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/en/README.md",
+      "target": "ISO_IEC_42001_Practical_AIMS_Manual_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/es-419/README.md",
+      "target": "ISO_IEC_42001_Sistema_de_Gestion_de_IA_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/es-419/README.md",
+      "target": "ISO_IEC_42001_Sistema_de_Gestion_de_IA_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/pt-BR/README.md",
+      "target": "ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/pt-BR/README.md",
+      "target": "ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/pt-BR/README.md",
+      "target": "../../../qa/iso-iec-42001/PT_BR_RECONSTRUCTION_QA.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/README.md",
+      "target": "../../qa/FULL_MULTILINGUAL_CONTENT_PARITY_AUDIT.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/README.md",
+      "target": "./en/ISO_IEC_42001_Practical_AIMS_Manual_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/README.md",
+      "target": "./en/ISO_IEC_42001_Practical_AIMS_Manual_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/README.md",
+      "target": "./es-419/ISO_IEC_42001_Sistema_de_Gestion_de_IA_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/README.md",
+      "target": "./es-419/ISO_IEC_42001_Sistema_de_Gestion_de_IA_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/README.md",
+      "target": "./pt-BR/ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/README.md",
+      "target": "./pt-BR/ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/iso-iec-42001/README.md",
+      "target": "../../README.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/en/README.md",
+      "target": "Kali_Linux_AI_Security_Forensics_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/en/README.md",
+      "target": "Kali_Linux_AI_Security_Forensics_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/es-419/README.md",
+      "target": "Kali_Linux_Seguridad_IA_Forense_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/es-419/README.md",
+      "target": "Kali_Linux_Seguridad_IA_Forense_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/pt-BR/README.md",
+      "target": "Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/pt-BR/README.md",
+      "target": "Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/README.md",
+      "target": "./en/Kali_Linux_AI_Security_Forensics_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/README.md",
+      "target": "./en/Kali_Linux_AI_Security_Forensics_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/README.md",
+      "target": "./es-419/Kali_Linux_Seguridad_IA_Forense_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/README.md",
+      "target": "./es-419/Kali_Linux_Seguridad_IA_Forense_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/README.md",
+      "target": "./pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/README.md",
+      "target": "./pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "manuals/kali-linux-ai-security-forensics/README.md",
+      "target": "../../README.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "qa/FULL_MULTILINGUAL_CONTENT_PARITY_AUDIT.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/ai-risk-management/en/AI_Risk_Management_Governance_and_Security_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/ai-risk-management/en/AI_Risk_Management_Governance_and_Security_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/ai-risk-management/es-419/Gestion_de_Riesgos_Gobernanza_y_Seguridad_de_IA_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/ai-risk-management/es-419/Gestion_de_Riesgos_Gobernanza_y_Seguridad_de_IA_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/ai-risk-management/pt-BR/Gestao_de_Riscos_Governanca_e_Seguranca_de_IA_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/ai-risk-management/pt-BR/Gestao_de_Riscos_Governanca_e_Seguranca_de_IA_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/iso-iec-42001/en/ISO_IEC_42001_Practical_AIMS_Manual_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/iso-iec-42001/en/ISO_IEC_42001_Practical_AIMS_Manual_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/iso-iec-42001/es-419/ISO_IEC_42001_Sistema_de_Gestion_de_IA_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/iso-iec-42001/es-419/ISO_IEC_42001_Sistema_de_Gestion_de_IA_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/iso-iec-42001/pt-BR/ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/iso-iec-42001/pt-BR/ISO_IEC_42001_Manual_Pratico_SGIA_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/kali-linux-ai-security-forensics/en/Kali_Linux_AI_Security_Forensics_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/kali-linux-ai-security-forensics/en/Kali_Linux_AI_Security_Forensics_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/kali-linux-ai-security-forensics/es-419/Kali_Linux_Seguridad_IA_Forense_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/kali-linux-ai-security-forensics/es-419/Kali_Linux_Seguridad_IA_Forense_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/kali-linux-ai-security-forensics/pt-BR/Kali_Linux_Seguranca_IA_Forense_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/microsoft-azure/en/Securing_Enterprise_AI_on_Microsoft_Azure_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/microsoft-azure/en/Securing_Enterprise_AI_on_Microsoft_Azure_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/microsoft-azure/es-419/Proteccion_de_IA_Empresarial_en_Microsoft_Azure_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/microsoft-azure/es-419/Proteccion_de_IA_Empresarial_en_Microsoft_Azure_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/microsoft-azure/pt-BR/Protecao_de_IA_Empresarial_no_Microsoft_Azure_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/microsoft-azure/pt-BR/Protecao_de_IA_Empresarial_no_Microsoft_Azure_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/aws/en/Securing_Enterprise_AI_on_AWS_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/aws/en/Securing_Enterprise_AI_on_AWS_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/aws/es-419/Proteccion_de_IA_Empresarial_en_AWS_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/aws/es-419/Proteccion_de_IA_Empresarial_en_AWS_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/aws/pt-BR/Protecao_de_IA_Empresarial_na_AWS_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/aws/pt-BR/Protecao_de_IA_Empresarial_na_AWS_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/google-cloud/en/Securing_Enterprise_AI_on_Google_Cloud_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/google-cloud/en/Securing_Enterprise_AI_on_Google_Cloud_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/google-cloud/es-419/Proteccion_de_IA_Empresarial_en_Google_Cloud_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/google-cloud/es-419/Proteccion_de_IA_Empresarial_en_Google_Cloud_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/google-cloud/pt-BR/Protecao_de_IA_Empresarial_no_Google_Cloud_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/google-cloud/pt-BR/Protecao_de_IA_Empresarial_no_Google_Cloud_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/oracle-cloud/en/Oracle_Cloud_AI_Security_Manual_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/oracle-cloud/en/Oracle_Cloud_AI_Security_Manual_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/oracle-cloud/es-419/Manual_de_Seguridad_de_IA_en_Oracle_Cloud_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/oracle-cloud/es-419/Manual_de_Seguridad_de_IA_en_Oracle_Cloud_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/oracle-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_Oracle_Cloud_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/oracle-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_Oracle_Cloud_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/ibm-cloud/en/IBM_Cloud_AI_Security_Manual_en_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/ibm-cloud/en/IBM_Cloud_AI_Security_Manual_en_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/ibm-cloud/es-419/Manual_de_Seguridad_de_IA_en_IBM_Cloud_es-419_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/ibm-cloud/es-419/Manual_de_Seguridad_de_IA_en_IBM_Cloud_es-419_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/ibm-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_IBM_Cloud_pt-BR_v1.0.pdf",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "manuals/cloud-ai-security/ibm-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_IBM_Cloud_pt-BR_v1.0.docx",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "ACCESSIBILITY.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "CONTRIBUTING.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "CHANGELOG.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "LICENSE",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "TRANSLATION_STATUS.md",
+      "target": "qa/ai-risk-management/PT_BR_RECONSTRUCTION_QA.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "TRANSLATION_STATUS.md",
+      "target": "qa/iso-iec-42001/PT_BR_RECONSTRUCTION_QA.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "TRANSLATION_STATUS.md",
+      "target": "qa/microsoft-azure/PT_BR_RECONSTRUCTION_QA.md",
+      "kind": "local",
+      "exists": true
+    },
+    {
+      "source": "TRANSLATION_STATUS.md",
+      "target": "qa/aws/PT_BR_RECONSTRUCTION_QA.md",
+      "kind": "local",
+      "exists": true
+    }
+  ],
+  "summary": {
+    "family_count": 8,
+    "edition_count": 24,
+    "package_file_count": 48,
+    "finding_count": 36
+  }
+}
+

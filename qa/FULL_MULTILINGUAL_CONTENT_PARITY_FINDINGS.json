@@ -1,0 +1,887 @@
+{
+  "baseline_sha": "be497599c055d3f611298d999c501a8d84e768d5",
+  "status": "FAIL",
+  "findings": [
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "ai-risk-management",
+      "language": "es-419",
+      "detail": {
+        "missing_count": 202,
+        "sample": [
+          "29.5",
+          "AI-caused",
+          "AI-enabled",
+          "AI/model",
+          "ATLAS/OWASP-based",
+          "Agent-to-agent",
+          "Agents/autonomy",
+          "Assurance/evidence",
+          "Audit/evidence",
+          "Availability/resilience",
+          "Case/change",
+          "Cost/latency",
+          "Current-information",
+          "Data/model",
+          "Data/model/configuration",
+          "Data/model/supplier",
+          "Data/privacy",
+          "Decisions/content",
+          "Development/acquisition",
+          "Entry-level",
+          "Fairness/accessibility",
+          "Fairness/oversight",
+          "Human-AI",
+          "ISO standards",
+          "ISO/IEC 23894 provides AI risk management guida",
+          "ISO/IEC 42001 and ISO/IEC 23894",
+          "ISO/IEC 42001 and ISO/IEC 2389416",
+          "ISO/IEC 42001 provides an AI management system",
+          "In-scope",
+          "Inventory/life"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "ai-risk-management",
+      "language": "pt-BR",
+      "detail": {
+        "missing_count": 201,
+        "sample": [
+          "26.4",
+          "AI-caused",
+          "AI-enabled",
+          "AI/model",
+          "ATLAS/OWASP-based",
+          "Agent-to-agent",
+          "Agents/autonomy",
+          "Assurance/evidence",
+          "Audit/evidence",
+          "Availability/resilience",
+          "Case/change",
+          "Cost/latency",
+          "Current-information",
+          "Data/model",
+          "Data/model/configuration",
+          "Data/model/supplier",
+          "Data/privacy",
+          "Decisions/content",
+          "Development/acquisition",
+          "Entry-level",
+          "Fairness/accessibility",
+          "Fairness/oversight",
+          "Human-AI",
+          "ISO standards",
+          "ISO/IEC 23894 provides AI risk management guida",
+          "ISO/IEC 42001 and ISO/IEC 23894",
+          "ISO/IEC 42001 and ISO/IEC 2389416",
+          "ISO/IEC 42001 provides an AI management system",
+          "In-scope",
+          "Inventory/life"
+        ]
+      }
+    },
+    {
+      "severity": "BLOCKER",
+      "category": "safety_language",
+      "family": "ai-risk-management",
+      "language": "pt-BR",
+      "detail": {
+        "missing_concepts": [
+          "defens"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "cloud-ai-security/aws",
+      "language": "es-419",
+      "detail": {
+        "missing_count": 181,
+        "sample": [
+          "AI-assisted",
+          "AI-generated",
+          "AI-related",
+          "AI-specific",
+          "AI-supported",
+          "AWS Config results",
+          "AWS Config rules",
+          "AWS Config to make ownership and purpose vi",
+          "AWS Foundations for AI Security",
+          "AWS Glue Data Catalog",
+          "AWS IAM Identity Center manages workforce a",
+          "AWS Identity and Access Management document",
+          "AWS KMS access",
+          "AWS KMS) for secrets",
+          "AWS STS credentials",
+          "AWS STS remove the need to store many long-",
+          "AWS Secrets Manager and AWS Key Management",
+          "AWS Security Hub CSPM and GuardDuty",
+          "AWS Security Hub CSPM findings",
+          "AWS Security Reference Architecture for AI",
+          "AWS controls",
+          "AWS foundation so AI experiments do not bec",
+          "AWS landing zone",
+          "AWS model routes commonly use Amazon Bedroc",
+          "AWS multi-account structure",
+          "AWS — Build useful AI services with secure",
+          "Agent-to-Agent",
+          "Agent-to-tool",
+          "Application-provided",
+          "Azure Foundations for AI Security"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "cloud-ai-security/aws",
+      "language": "pt-BR",
+      "detail": {
+        "missing_count": 182,
+        "sample": [
+          "AI-assisted",
+          "AI-generated",
+          "AI-related",
+          "AI-specific",
+          "AI-supported",
+          "AWS Config results",
+          "AWS Config rules",
+          "AWS Config to make ownership and purpose vi",
+          "AWS Foundations for AI Security",
+          "AWS Glue Data Catalog",
+          "AWS IAM Identity Center manages workforce a",
+          "AWS Identity and Access Management document",
+          "AWS KMS access",
+          "AWS KMS) for secrets",
+          "AWS STS credentials",
+          "AWS STS remove the need to store many long-",
+          "AWS Secrets Manager and AWS Key Management",
+          "AWS Security Hub CSPM and GuardDuty",
+          "AWS Security Hub CSPM findings",
+          "AWS Security Reference Architecture for AI",
+          "AWS controls",
+          "AWS foundation so AI experiments do not bec",
+          "AWS landing zone",
+          "AWS model routes commonly use Amazon Bedroc",
+          "AWS multi-account structure",
+          "AWS — Build useful AI services with secure",
+          "Agent-to-Agent",
+          "Agent-to-tool",
+          "Application-provided",
+          "Azure Foundations for AI Security"
+        ]
+      }
+    },
+    {
+      "severity": "BLOCKER",
+      "category": "safety_language",
+      "family": "cloud-ai-security/aws",
+      "language": "pt-BR",
+      "detail": {
+        "missing_concepts": [
+          "defens"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "cloud-ai-security/google-cloud",
+      "language": "es-419",
+      "detail": {
+        "missing_count": 172,
+        "sample": [
+          "AI-assisted",
+          "AI-generated",
+          "AI-related",
+          "AI-specific",
+          "AI-supported",
+          "Agent-to-Agent",
+          "Agent-to-tool",
+          "Application-provided",
+          "Azure Foundations for AI Security",
+          "Azure-managed",
+          "Azure-managed identity that applications can",
+          "Cross-border",
+          "Denial-of-wallet",
+          "Derived-data",
+          "End-to-end",
+          "Google Cloud Foundations for AI Security",
+          "Google Cloud IAM documentation",
+          "Google Cloud Well-Architected AI and ML perspective",
+          "Google Cloud and the services commonly used for ente",
+          "Google Cloud controls",
+          "Google Cloud foundation so AI experiments do not bec",
+          "Google Cloud guidance",
+          "Google Cloud landing zone",
+          "Google Cloud organization",
+          "Google Cloud services",
+          "Google Cloud — Build useful AI services with secure",
+          "High-impact",
+          "ISO management systems and risk guidance",
+          "ISO/IEC 23894 AI risk guidance",
+          "ISO/IEC 27001"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "translation_word_ratio",
+      "family": "cloud-ai-security/google-cloud",
+      "language": "pt-BR",
+      "detail": 0.055
+    },
+    {
+      "severity": "HIGH",
+      "category": "heading_count_parity",
+      "family": "cloud-ai-security/google-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "en": 207,
+        "localized": 18,
+        "ratio": 0.087
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "table_parity",
+      "family": "cloud-ai-security/google-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "en_tables": 62,
+        "localized_tables": 2,
+        "en_rows": 123,
+        "localized_rows": 12
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "cloud-ai-security/google-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "missing_count": 187,
+        "sample": [
+          "2.0",
+          "AI-assisted",
+          "AI-generated",
+          "AI-related",
+          "AI-specific",
+          "AI-supported",
+          "Agent-to-Agent",
+          "Agent-to-tool",
+          "Application-provided",
+          "Azure Foundations for AI Security",
+          "Azure-managed",
+          "Azure-managed identity that applications can",
+          "Cross-border",
+          "Denial-of-wallet",
+          "Derived-data",
+          "End-to-end",
+          "Fine-tuning",
+          "GOOGLE CLOUD",
+          "Google Cloud Foundations for AI Security",
+          "Google Cloud IAM documentation",
+          "Google Cloud Well-Architected AI and ML perspective",
+          "Google Cloud and the services commonly used for ente",
+          "Google Cloud controls",
+          "Google Cloud foundation so AI experiments do not bec",
+          "Google Cloud guidance",
+          "Google Cloud landing zone",
+          "Google Cloud organization",
+          "Google Cloud services",
+          "Google Cloud — Build useful AI services with secure",
+          "High-impact"
+        ]
+      }
+    },
+    {
+      "severity": "BLOCKER",
+      "category": "safety_language",
+      "family": "cloud-ai-security/google-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "missing_concepts": [
+          "autoriz",
+          "legal",
+          "defens"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "cloud-ai-security/ibm-cloud",
+      "language": "es-419",
+      "detail": {
+        "missing_count": 54,
+        "sample": [
+          "Agents/MCP",
+          "Default-deny",
+          "High-impact",
+          "IBM Cloud Edition",
+          "IBM Cloud provides compute",
+          "Key/secret",
+          "Landing-Zone",
+          "Non-Human",
+          "Non-human",
+          "Plausible-looking",
+          "Rate-limit",
+          "Red-team",
+          "Retrieval-augmented",
+          "Supply-Chain",
+          "beginner-friendly",
+          "cross-tenant",
+          "customer-managed",
+          "daily-use",
+          "data-classification",
+          "data-flow",
+          "data-retrieval",
+          "document-level",
+          "evidence-based",
+          "evidence-driven",
+          "fine-tuning",
+          "high-impact",
+          "high-risk",
+          "high-value",
+          "incident-response",
+          "key-management"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "translation_word_ratio",
+      "family": "cloud-ai-security/ibm-cloud",
+      "language": "pt-BR",
+      "detail": 0.255
+    },
+    {
+      "severity": "HIGH",
+      "category": "heading_count_parity",
+      "family": "cloud-ai-security/ibm-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "en": 25,
+        "localized": 18,
+        "ratio": 0.72
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "table_parity",
+      "family": "cloud-ai-security/ibm-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "en_tables": 3,
+        "localized_tables": 2,
+        "en_rows": 28,
+        "localized_rows": 12
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "cloud-ai-security/ibm-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "missing_count": 94,
+        "sample": [
+          "2.0",
+          "Agents/MCP",
+          "CI/CD",
+          "Default-deny",
+          "High-impact",
+          "IBM Cloud Edition",
+          "IBM Cloud IAM policies",
+          "IBM Cloud IAM — https",
+          "IBM Cloud Kubernetes Service",
+          "IBM Cloud Logs",
+          "IBM Cloud Logs — https",
+          "IBM Cloud Object Storage",
+          "IBM Cloud Security and Compliance Center and Work",
+          "IBM Cloud VPCs",
+          "IBM Cloud provides compute",
+          "IBM Cloud security and compliance — https",
+          "ISO/IEC 27001",
+          "Key/secret",
+          "Landing-Zone",
+          "MITRE ATLAS — https",
+          "NIST AI RMF",
+          "NIST AI Risk Management Framework — https",
+          "NIST CSF 2",
+          "NIST Cybersecurity Framework 2",
+          "Non-Human",
+          "Non-human",
+          "OWASP Top 10 for LLM Applications — https",
+          "Plausible-looking",
+          "Rate-limit",
+          "Red-team"
+        ]
+      }
+    },
+    {
+      "severity": "BLOCKER",
+      "category": "safety_language",
+      "family": "cloud-ai-security/ibm-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "missing_concepts": [
+          "autoriz",
+          "legal",
+          "defens"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "table_parity",
+      "family": "cloud-ai-security/microsoft-azure",
+      "language": "es-419",
+      "detail": {
+        "en_tables": 61,
+        "localized_tables": 62,
+        "en_rows": 107,
+        "localized_rows": 123
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "cloud-ai-security/microsoft-azure",
+      "language": "es-419",
+      "detail": {
+        "missing_count": 186,
+        "sample": [
+          "AI-assisted",
+          "AI-generated",
+          "AI-related",
+          "AI-specific",
+          "AI-supported",
+          "Agent-to-Agent",
+          "Agent-to-tool",
+          "Application-provided",
+          "Azure AI Content Safety",
+          "Azure API Management in front of externally c",
+          "Azure API Management or equivalent controls f",
+          "Azure Foundations for AI Security",
+          "Azure Foundations for AI Security28",
+          "Azure Key Vault for secrets",
+          "Azure Policy for allowed regions",
+          "Azure Policy outcomes",
+          "Azure Policy to make ownership and purpose vi",
+          "Azure Well-Architected Framework for AI workl",
+          "Azure and the services commonly used for ente",
+          "Azure controls",
+          "Azure foundation so AI experiments do not bec",
+          "Azure landing area",
+          "Azure landing area29",
+          "Azure structure",
+          "Azure — Build useful AI services with secure",
+          "Azure-hosted",
+          "Azure-hosted OpenAI models are consumed throu",
+          "Azure-hosted OpenAI route",
+          "Azure-managed",
+          "Azure-managed identity that applications can"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "cloud-ai-security/microsoft-azure",
+      "language": "pt-BR",
+      "detail": {
+        "missing_count": 183,
+        "sample": [
+          "AI-assisted",
+          "AI-generated",
+          "AI-related",
+          "AI-specific",
+          "AI-supported",
+          "Agent-to-Agent",
+          "Agent-to-tool",
+          "Application-provided",
+          "Azure AI Content Safety",
+          "Azure API Management in front of externally c",
+          "Azure API Management or equivalent controls f",
+          "Azure Foundations for AI Security",
+          "Azure Foundations for AI Security28",
+          "Azure Key Vault for secrets",
+          "Azure Policy for allowed regions",
+          "Azure Policy outcomes",
+          "Azure Policy to make ownership and purpose vi",
+          "Azure Well-Architected Framework for AI workl",
+          "Azure and the services commonly used for ente",
+          "Azure controls",
+          "Azure foundation so AI experiments do not bec",
+          "Azure landing area",
+          "Azure landing area29",
+          "Azure structure",
+          "Azure — Build useful AI services with secure",
+          "Azure-hosted",
+          "Azure-hosted OpenAI models are consumed throu",
+          "Azure-hosted OpenAI route",
+          "Azure-managed",
+          "Azure-managed identity that applications can"
+        ]
+      }
+    },
+    {
+      "severity": "BLOCKER",
+      "category": "safety_language",
+      "family": "cloud-ai-security/microsoft-azure",
+      "language": "pt-BR",
+      "detail": {
+        "missing_concepts": [
+          "defens"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "cloud-ai-security/oracle-cloud",
+      "language": "es-419",
+      "detail": {
+        "missing_count": 52,
+        "sample": [
+          "Agents/MCP",
+          "Default-deny",
+          "High-impact",
+          "Key/secret",
+          "Landing-Zone",
+          "Non-Human",
+          "Non-human",
+          "Oracle Cloud Infrastructure (OCI) Edition",
+          "Oracle Cloud Infrastructure (OCI) provides compute",
+          "Plausible-looking",
+          "Rate-limit",
+          "Red-team",
+          "Retrieval-augmented",
+          "Supply-Chain",
+          "beginner-friendly",
+          "cross-tenant",
+          "customer-managed",
+          "daily-use",
+          "data-classification",
+          "data-flow",
+          "data-retrieval",
+          "document-level",
+          "evidence-based",
+          "evidence-driven",
+          "fine-tuning",
+          "high-impact",
+          "high-risk",
+          "high-value",
+          "incident-response",
+          "key-management"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "translation_word_ratio",
+      "family": "cloud-ai-security/oracle-cloud",
+      "language": "pt-BR",
+      "detail": 0.252
+    },
+    {
+      "severity": "HIGH",
+      "category": "heading_count_parity",
+      "family": "cloud-ai-security/oracle-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "en": 25,
+        "localized": 18,
+        "ratio": 0.72
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "table_parity",
+      "family": "cloud-ai-security/oracle-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "en_tables": 3,
+        "localized_tables": 2,
+        "en_rows": 28,
+        "localized_rows": 12
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "cloud-ai-security/oracle-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "missing_count": 85,
+        "sample": [
+          "2.0",
+          "Agents/MCP",
+          "CI/CD",
+          "Default-deny",
+          "High-impact",
+          "ISO/IEC 27001",
+          "Key/secret",
+          "Landing-Zone",
+          "MITRE ATLAS — https",
+          "NIST AI RMF",
+          "NIST AI Risk Management Framework — https",
+          "NIST CSF 2",
+          "NIST Cybersecurity Framework 2",
+          "Non-Human",
+          "Non-human",
+          "OWASP Top 10 for LLM Applications — https",
+          "Oracle Cloud Infrastructure (OCI)",
+          "Oracle Cloud Infrastructure (OCI) Edition",
+          "Oracle Cloud Infrastructure (OCI) provides compute",
+          "Plausible-looking",
+          "Rate-limit",
+          "Red-team",
+          "Retrieval-augmented",
+          "Supply-Chain",
+          "beginner-friendly",
+          "com/en-us/iaas/Content/Identity/home.htm",
+          "com/en-us/iaas/Content/Logging/home.htm",
+          "com/en-us/iaas/Content/Security/Concepts/security_guide.htm",
+          "com/en-us/iaas/Content/generative-ai-agents/home.htm",
+          "com/en-us/iaas/Content/generative-ai/home.htm"
+        ]
+      }
+    },
+    {
+      "severity": "BLOCKER",
+      "category": "safety_language",
+      "family": "cloud-ai-security/oracle-cloud",
+      "language": "pt-BR",
+      "detail": {
+        "missing_concepts": [
+          "autoriz",
+          "legal",
+          "defens"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "iso-iec-42001",
+      "language": "es-419",
+      "detail": {
+        "missing_count": 306,
+        "sample": [
+          "30.1",
+          "30.8",
+          "AI-domain",
+          "AI-enabled",
+          "AI-specific",
+          "AI/model",
+          "AIMS-specific",
+          "Access/retention",
+          "Audience-appropriate",
+          "Audit/nonconformity",
+          "Audit/nonconformity/corrective",
+          "Avoid/reduce/share/accept",
+          "Bias/representation",
+          "Boundaries/dependencies",
+          "Build/configure",
+          "Business/AI",
+          "Cause/actor",
+          "Cloud/on-prem/edge",
+          "Communication/training",
+          "Complaints/incidents/redress",
+          "Compute/system",
+          "Conclusion/nonconformity",
+          "Context/party",
+          "Context/scope",
+          "Correction/corrective",
+          "Corrective-action",
+          "Create/identify",
+          "Criteria/scope/objective",
+          "Current-information",
+          "Customers/partners"
+        ]
+      }
+    },
+    {
+      "severity": "BLOCKER",
+      "category": "safety_language",
+      "family": "iso-iec-42001",
+      "language": "es-419",
+      "detail": {
+        "missing_concepts": [
+          "defens"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "iso-iec-42001",
+      "language": "pt-BR",
+      "detail": {
+        "missing_count": 305,
+        "sample": [
+          "AI-domain",
+          "AI-enabled",
+          "AI-specific",
+          "AI/model",
+          "AIMS-specific",
+          "Access/retention",
+          "Audience-appropriate",
+          "Audit/nonconformity",
+          "Audit/nonconformity/corrective",
+          "Avoid/reduce/share/accept",
+          "Bias/representation",
+          "Boundaries/dependencies",
+          "Build/configure",
+          "Business/AI",
+          "Cause/actor",
+          "Cloud/on-prem/edge",
+          "Communication/training",
+          "Complaints/incidents/redress",
+          "Compute/system",
+          "Conclusion/nonconformity",
+          "Context/party",
+          "Context/scope",
+          "Correction/corrective",
+          "Corrective-action",
+          "Create/identify",
+          "Criteria/scope/objective",
+          "Current-information",
+          "Customers/partners",
+          "Dataset/data",
+          "Decision/authority/conditions"
+        ]
+      }
+    },
+    {
+      "severity": "BLOCKER",
+      "category": "safety_language",
+      "family": "iso-iec-42001",
+      "language": "pt-BR",
+      "detail": {
+        "missing_concepts": [
+          "defens"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "table_parity",
+      "family": "kali-linux-ai-security-forensics",
+      "language": "es-419",
+      "detail": {
+        "en_tables": 11,
+        "localized_tables": 12,
+        "en_rows": 122,
+        "localized_rows": 123
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "kali-linux-ai-security-forensics",
+      "language": "es-419",
+      "detail": {
+        "missing_count": 139,
+        "sample": [
+          "AI-assisted",
+          "AWS Generative AI security and least privil",
+          "AWS Security for agentic AI",
+          "AWS and Amazon Bedrock",
+          "Access-denied",
+          "Allow-list",
+          "Attribution-Noncommercial-Share",
+          "Azure AI security best practices",
+          "Azure and Microsoft Foundry",
+          "Azure data",
+          "Azure role-based access control",
+          "Beginner-Friendly",
+          "Brute-force",
+          "COMMAND-LINE",
+          "ChatGPT-connected",
+          "Command-line",
+          "Dual-booting",
+          "English-level",
+          "Entry-level",
+          "FILE-SYSTEM",
+          "HIGH-PERFORMANCE",
+          "ISO and start the VM",
+          "ISO and verify its checksum",
+          "ISO/IEC 27001 for information-security manageme",
+          "ISO/IEC 42001 for AI management systems",
+          "Intel-based",
+          "Kali Linux documentation",
+          "Kali Linux downloads",
+          "Kali Linux is a specialized Linux distribution for",
+          "Kali Linux website and the official virtualization"
+        ]
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "heading_count_parity",
+      "family": "kali-linux-ai-security-forensics",
+      "language": "pt-BR",
+      "detail": {
+        "en": 129,
+        "localized": 128,
+        "ratio": 0.992
+      }
+    },
+    {
+      "severity": "HIGH",
+      "category": "protected_token_parity",
+      "family": "kali-linux-ai-security-forensics",
+      "language": "pt-BR",
+      "detail": {
+        "missing_count": 135,
+        "sample": [
+          "AI-assisted",
+          "AWS Generative AI security and least privil",
+          "AWS Security for agentic AI",
+          "AWS and Amazon Bedrock",
+          "Access-denied",
+          "Allow-list",
+          "Attribution-Noncommercial-Share",
+          "Azure AI security best practices",
+          "Azure and Microsoft Foundry",
+          "Azure data",
+          "Azure role-based access control",
+          "Beginner-Friendly",
+          "Brute-force",
+          "COMMAND-LINE",
+          "ChatGPT-connected",
+          "Command-line",
+          "Dual-booting",
+          "English-level",
+          "Entry-level",
+          "FILE-SYSTEM",
+          "HIGH-PERFORMANCE",
+          "ISO and start the VM",
+          "ISO and verify its checksum",
+          "ISO/IEC 27001 for information-security manageme",
+          "ISO/IEC 42001 for AI management systems",
+          "Intel-based",
+          "Kali Linux documentation",
+          "Kali Linux downloads",
+          "Kali Linux is a specialized Linux distribution for",
+          "Kali Linux website and the official virtualization"
+        ]
+      }
+    }
+  ],
+  "limitations": [
+    "Paragraph-level semantic equivalence requires qualified native-language human review.",
+    "Official-source currency requires documented claim-by-claim human adjudication where product documentation is time-sensitive.",
+    "Automated structural and token checks do not establish translation approval."
+  ]
+}
+

@@ -1,0 +1,3 @@
+31a9dbf879cdf9d14cb75490e337a2e965f638638e536feb8ce5e8e7d47b6e79  manuals/cloud-ai-security/aws/pt-BR/Protecao_de_IA_Empresarial_na_AWS_pt-BR_v1.0.docx
+66ee1f193339a1e64bd9886af4c081565990fb6da5b1e43916aeb41ea08fb083  manuals/cloud-ai-security/aws/pt-BR/Protecao_de_IA_Empresarial_na_AWS_pt-BR_v1.0.pdf
+

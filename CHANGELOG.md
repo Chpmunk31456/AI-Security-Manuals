@@ -16,6 +16,9 @@ All notable repository-level changes are documented here.
 - Replaced the condensed Microsoft Azure Brazilian Portuguese package with a complete English-authority reconstruction.
 - Restored 1,563 body paragraphs, 207 headings, 61 tables, 8 inline figures, 7 embedded media files, 22 external links, and 848 list paragraphs; rebuilt the searchable 100-page PDF.
 - Corrected machine-translation defects affecting `RAG`, `NHI`, `LLM`, prompt injection, glossary terms, and protected Microsoft product names; restored the authoritative list-numbering definitions and documented inherited English figure labels and source-image clipping.
+- Replaced the condensed AWS Brazilian Portuguese package with a complete English-authority reconstruction.
+- Restored 1,356 body paragraphs, 207 headings, 715 list paragraphs, 62 tables, 8 inline figures, 7 embedded media files, 22 external links, and 29 bookmarks; rebuilt the searchable 86-page PDF.
+- Corrected machine-translation defects affecting `IAM Identity Center` and `Amazon Bedrock Guardrails`; restored authoritative styles, list numbering, and internal bookmarks, while documenting machine-assistance, inherited English figure labels, and pending native-language approval.
 
 ### Audit
 
@@ -46,3 +49,4 @@ All notable repository-level changes are documented here.
 ## Version 1.0 — July 2026
 
 - Published the initial AI Security Manuals collection in available English, neutral Latin American Spanish, and Brazilian Portuguese editions.
+
