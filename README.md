@@ -7,6 +7,15 @@ A free, practical, multilingual collection covering artificial intelligence secu
 **Alberto (Al) Leiva**  
 Senior Cybersecurity Executive | vCISO | AI Governance | GRC | Enterprise Security Architecture
 
+## Archival Publication and DOI
+
+The multilingual Version 1.0 collection is permanently archived in Zenodo.
+
+- All-versions DOI: [10.5281/zenodo.21764043](https://doi.org/10.5281/zenodo.21764043)
+- Version 1.0 DOI: [10.5281/zenodo.21764044](https://doi.org/10.5281/zenodo.21764044)
+
+Use the all-versions DOI to reference the evolving collection and the Version 1.0 DOI to cite the exact files published on August 2, 2026.
+
 ## Start Here
 
 - Choose a topic from the catalog below.
