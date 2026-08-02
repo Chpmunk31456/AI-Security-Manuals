@@ -19,6 +19,9 @@ All notable repository-level changes are documented here.
 - Replaced the condensed AWS Brazilian Portuguese package with a complete English-authority reconstruction.
 - Restored 1,356 body paragraphs, 207 headings, 715 list paragraphs, 62 tables, 8 inline figures, 7 embedded media files, 22 external links, and 29 bookmarks; rebuilt the searchable 86-page PDF.
 - Corrected machine-translation defects affecting `IAM Identity Center` and `Amazon Bedrock Guardrails`; restored authoritative styles, list numbering, and internal bookmarks, while documenting machine-assistance, inherited English figure labels, and pending native-language approval.
+- Replaced the condensed Google Cloud Brazilian Portuguese package with a complete English-authority reconstruction.
+- Restored 1,356 body paragraphs, 207 headings, 715 list paragraphs, 62 tables, 8 inline figures, 7 embedded media files, 53 hyperlinks, and 29 bookmarks; rebuilt and visually inspected the searchable 93-page PDF.
+- Corrected machine-translation defects affecting protected Google product names, `RAG`, `shadow AI`, embeddings, prompt terminology, and governance language; retained explicit machine-assistance, English embedded-figure-label, and pending human-review limitations.
 
 ### Audit
 
@@ -49,4 +52,3 @@ All notable repository-level changes are documented here.
 ## Version 1.0 — July 2026
 
 - Published the initial AI Security Manuals collection in available English, neutral Latin American Spanish, and Brazilian Portuguese editions.
-

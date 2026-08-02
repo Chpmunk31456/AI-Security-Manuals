@@ -231,43 +231,12 @@
     },
     {
       "severity": "HIGH",
-      "category": "translation_word_ratio",
-      "family": "cloud-ai-security/google-cloud",
-      "language": "pt-BR",
-      "detail": 0.055
-    },
-    {
-      "severity": "HIGH",
-      "category": "heading_count_parity",
-      "family": "cloud-ai-security/google-cloud",
-      "language": "pt-BR",
-      "detail": {
-        "en": 207,
-        "localized": 18,
-        "ratio": 0.087
-      }
-    },
-    {
-      "severity": "HIGH",
-      "category": "table_parity",
-      "family": "cloud-ai-security/google-cloud",
-      "language": "pt-BR",
-      "detail": {
-        "en_tables": 62,
-        "localized_tables": 2,
-        "en_rows": 123,
-        "localized_rows": 12
-      }
-    },
-    {
-      "severity": "HIGH",
       "category": "protected_token_parity",
       "family": "cloud-ai-security/google-cloud",
       "language": "pt-BR",
       "detail": {
-        "missing_count": 187,
+        "missing_count": 175,
         "sample": [
-          "2.0",
           "AI-assisted",
           "AI-generated",
           "AI-related",
@@ -296,7 +265,8 @@
           "Google Cloud organization",
           "Google Cloud services",
           "Google Cloud — Build useful AI services with secure",
-          "High-impact"
+          "High-impact",
+          "ISO management systems and risk guidance"
         ]
       }
     },
@@ -307,8 +277,6 @@
       "language": "pt-BR",
       "detail": {
         "missing_concepts": [
-          "autoriz",
-          "legal",
           "defens"
         ]
       }
@@ -884,4 +852,3 @@
     "Automated structural and token checks do not establish translation approval."
   ]
 }
-
