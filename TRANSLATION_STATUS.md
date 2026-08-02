@@ -22,9 +22,19 @@ Google Translate and Google Drive were used only for a machine-assisted first pa
 
 See [`qa/iso-iec-42001/PT_BR_RECONSTRUCTION_QA.md`](qa/iso-iec-42001/PT_BR_RECONSTRUCTION_QA.md).
 
+## Microsoft Azure pt-BR
+
+**Status: PASS WITH DOCUMENTED LIMITATIONS** for automated structure and package checks; native-language approval remains pending.
+
+The condensed package was replaced with a complete reconstruction from the English authority. The reconstructed DOCX preserves 1,563 body paragraphs, 207 headings, 61 tables, 8 inline figures, 7 embedded media files, 22 external hyperlink targets, and 848 list paragraphs. Its searchable PDF contains 100 nonblank pages.
+
+Google Translate was used only for a machine-assisted first pass. Reproducible mistranslations affecting `RAG`, `NHI`, `LLM`, prompt injection, glossary entries, and protected Microsoft product names were corrected against English. English-source figure labels remain embedded, and no native Brazilian Portuguese approval is claimed.
+
+See [`qa/microsoft-azure/PT_BR_RECONSTRUCTION_QA.md`](qa/microsoft-azure/PT_BR_RECONSTRUCTION_QA.md).
+
 ## Remaining Brazilian Portuguese remediation
 
-Microsoft Azure, AWS, Google Cloud, Oracle Cloud, and IBM Cloud remain incomplete condensed editions. Kali Linux remains pending protected-token and native-language review.
+AWS, Google Cloud, Oracle Cloud, and IBM Cloud remain incomplete condensed editions. Kali Linux remains pending protected-token and native-language review.
 
 ## Latin American Spanish
 

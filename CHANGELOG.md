@@ -13,6 +13,9 @@ All notable repository-level changes are documented here.
 - Replaced the condensed Brazilian Portuguese ISO/IEC 42001 package with a complete English-authority reconstruction.
 - Restored 653 paragraphs, 126 headings, 41 tables, 10 inline figures, and all 34 external hyperlink targets; rebuilt the searchable 53-page PDF.
 - Corrected machine-translation defects affecting `AIMS`, `SoA`, `RAG`, section identifiers, and protected product names, while retaining explicit native-language and embedded-figure-label limitations.
+- Replaced the condensed Microsoft Azure Brazilian Portuguese package with a complete English-authority reconstruction.
+- Restored 1,563 body paragraphs, 207 headings, 61 tables, 8 inline figures, 7 embedded media files, 22 external links, and 848 list paragraphs; rebuilt the searchable 100-page PDF.
+- Corrected machine-translation defects affecting `RAG`, `NHI`, `LLM`, prompt injection, glossary terms, and protected Microsoft product names; restored the authoritative list-numbering definitions and documented inherited English figure labels and source-image clipping.
 
 ### Audit
 
