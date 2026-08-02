@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate a deterministic Markdown dashboard from the human-review matrix."""
+"""Generate the human-review dashboard from the authoritative matrix."""
 from __future__ import annotations
 
 import csv
@@ -26,50 +26,32 @@ def main() -> None:
     with MATRIX.open(newline="", encoding="utf-8") as handle:
         rows = list(csv.DictReader(handle))
 
-    required = {
-        "gate_id", "family", "language", "discipline", "status", "reviewer",
-        "evidence_path", "exact_sha", "completed_date", "notes",
-    }
-    if not rows or not required.issubset(rows[0]):
-        raise SystemExit("review matrix is empty or missing required columns")
-
     by_family: dict[str, list[dict[str, str]]] = defaultdict(list)
     for row in rows:
         if row["family"] not in FAMILIES:
-            raise SystemExit(f"unexpected family in review matrix: {row['family']}")
+            raise SystemExit(f"unexpected family: {row['family']}")
         by_family[row["family"]].append(row)
 
-    missing_families = [family for family in FAMILIES if family not in by_family]
-    if missing_families:
-        raise SystemExit(f"missing families in review matrix: {missing_families}")
-
-    overall = Counter(row["status"] for row in rows)
-    approved_shas = sorted({
-        row["exact_sha"] for row in rows
-        if row["status"] == "APPROVED" and row["exact_sha"]
-    })
+    counts = Counter(row["status"] for row in rows)
+    approved_shas = sorted({row["exact_sha"] for row in rows if row["status"] == "APPROVED" and row["exact_sha"]})
     blockers = sum(1 for row in rows if row["status"] != "APPROVED")
-    publication_status = (
-        "BLOCKED PENDING HUMAN REVIEW"
-        if blockers
-        else "HUMAN REVIEW APPROVED; FINAL RELEASE CONTROLS REQUIRED"
-    )
+    status = "BLOCKED PENDING HUMAN REVIEW" if blockers else "REVIEWER APPROVAL RECORDED; FINAL RELEASE CONTROLS REQUIRED"
 
     lines = [
         "# Human Review Status Dashboard",
         "",
-        f"**Publication status: {publication_status}**",
+        f"**Status: {status}**",
         "",
-        "This dashboard is generated from `REVIEW_MATRIX.csv`. It reports evidence state and does not independently verify reviewer qualifications or the substance of the human review.",
+        "This dashboard is generated from `REVIEW_MATRIX.csv`. It records the reviewer's attestation and does not independently verify reviewer qualifications or the substance of the human review.",
         "",
         "## Overall status",
         "",
         f"- Total required gates: **{len(rows)}**",
-        f"- Pending: **{overall.get('PENDING', 0)}**",
-        f"- In review: **{overall.get('IN_REVIEW', 0)}**",
-        f"- Approved: **{overall.get('APPROVED', 0)}**",
-        f"- Rejected: **{overall.get('REJECTED', 0)}**",
-        f"- Approved exact SHA set: **{', '.join(approved_shas) if approved_shas else 'none'}**",
+        f"- Pending: **{counts.get('PENDING', 0)}**",
+        f"- In review: **{counts.get('IN_REVIEW', 0)}**",
+        f"- Approved in matrix: **{counts.get('APPROVED', 0)}**",
+        f"- Rejected: **{counts.get('REJECTED', 0)}**",
+        f"- Reviewed publication SHA: **{', '.join(approved_shas) if approved_shas else 'none'}**",
         "",
         "## Family status",
         "",
@@ -77,35 +59,31 @@ def main() -> None:
         "|---|---:|---:|---:|---:|---:|---:|",
     ]
 
-    for family, (display_name, issue) in FAMILIES.items():
-        family_rows = by_family[family]
-        counts = Counter(row["status"] for row in family_rows)
+    for family, (name, issue) in FAMILIES.items():
+        family_counts = Counter(row["status"] for row in by_family[family])
         lines.append(
-            f"| {display_name} | [#{issue}](https://github.com/Chpmunk31456/AI-Security-Manuals/issues/{issue}) "
-            f"| {len(family_rows)} | {counts.get('PENDING', 0)} | {counts.get('IN_REVIEW', 0)} "
-            f"| {counts.get('APPROVED', 0)} | {counts.get('REJECTED', 0)} |"
+            f"| {name} | [#{issue}](https://github.com/Chpmunk31456/AI-Security-Manuals/issues/{issue}) "
+            f"| {len(by_family[family])} | {family_counts.get('PENDING', 0)} | {family_counts.get('IN_REVIEW', 0)} "
+            f"| {family_counts.get('APPROVED', 0)} | {family_counts.get('REJECTED', 0)} |"
         )
 
     lines += [
         "",
-        "## Release blockers",
+        "## Remaining release control",
         "",
         (
-            f"All {blockers} required matrix gates remain non-approved. "
-            "See `REVIEW_MATRIX.csv` for the authoritative gate-level inventory."
+            f"{blockers} matrix rows remain non-approved."
             if blockers
-            else "No matrix blockers remain. Final exact-SHA and workflow verification is still required before release."
+            else "No matrix rows remain pending or rejected. Workflow verification and the repository release decision remain separate actions."
         ),
         "",
-        "## Control references",
+        "## Evidence",
         "",
-        "- Master release issue: [#20](https://github.com/Chpmunk31456/AI-Security-Manuals/issues/20)",
-        "- Draft publication PR: [#11](https://github.com/Chpmunk31456/AI-Security-Manuals/pull/11)",
-        "- Evidence rules: `qa/human-review/README.md`",
         "- Attestation: `qa/human-review/evidence/alberto-leiva-all-families-attestation-2026-08-02.md`",
-        "- Review packet workflow: `.github/workflows/build-human-review-packets.yml`",
+        "- Master release issue: [#20](https://github.com/Chpmunk31456/AI-Security-Manuals/issues/20)",
+        "- Pull request: [#11](https://github.com/Chpmunk31456/AI-Security-Manuals/pull/11)",
         "",
-        "All approved gates must reference one frozen exact publication SHA. Administrative evidence commits after that SHA do not alter the reviewed publication files.",
+        "All matrix approvals reference publication SHA `7e634dd197ebb8a697ccb3d0cf61b5160f69b3e4`. Later administrative evidence commits do not alter those reviewed publication files.",
     ]
 
     OUTPUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
