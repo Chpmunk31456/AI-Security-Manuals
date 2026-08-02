@@ -1,0 +1,43 @@
+name: Export IBM Cloud reconstruction inputs
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - translation/reconstruct-full-ptbr-and-review-es419
+    paths:
+      - .github/workflows/export-ibm-cloud-reconstruction-inputs.yml
+
+permissions:
+  contents: read
+
+jobs:
+  export-inputs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out exact branch commit
+        uses: actions/checkout@v4
+
+      - name: Validate required files
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -f manuals/cloud-ai-security/ibm-cloud/en/IBM_Cloud_AI_Security_Manual_en_v1.0.docx
+          test -f manuals/cloud-ai-security/ibm-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_IBM_Cloud_pt-BR_v1.0.docx
+          sha256sum \
+            manuals/cloud-ai-security/ibm-cloud/en/IBM_Cloud_AI_Security_Manual_en_v1.0.docx \
+            manuals/cloud-ai-security/ibm-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_IBM_Cloud_pt-BR_v1.0.docx \
+            > IBM_CLOUD_INPUT_SHA256SUMS.txt
+
+      - name: Upload exact reconstruction inputs
+        uses: actions/upload-artifact@v4
+        with:
+          name: ibm-cloud-reconstruction-inputs-${{ github.sha }}
+          if-no-files-found: error
+          retention-days: 7
+          path: |
+            manuals/cloud-ai-security/ibm-cloud/en/IBM_Cloud_AI_Security_Manual_en_v1.0.docx
+            manuals/cloud-ai-security/ibm-cloud/pt-BR/Manual_de_Seguranca_de_IA_na_IBM_Cloud_pt-BR_v1.0.docx
+            manuals/cloud-ai-security/ibm-cloud/en/README.md
+            manuals/cloud-ai-security/ibm-cloud/pt-BR/README.md
+            IBM_CLOUD_INPUT_SHA256SUMS.txt
